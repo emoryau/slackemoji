@@ -504,11 +504,11 @@
     "code": ":heart:"
   },
   {
-    word:'neigh',
-    code:':horse:'
+    "word": "neigh",
+    "code": ":horse:"
   },
   {
-    word:'plebs',
-    code:':man-woman-girl-boy:'
+    "word": "plebs",
+    "code": ":man-woman-girl-boy:"
   }
 ]
