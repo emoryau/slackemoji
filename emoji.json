@@ -546,5 +546,13 @@
   {
     "word": "draft",
     "code": ":writing_hand:"
+  },
+  {
+    "word": "photo",
+    "code": ":camera:"
+  },
+  {
+    "word": "shore",
+    "code": ":desert_island"
   }
 ]
