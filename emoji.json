@@ -526,5 +526,13 @@
   {
     "word": "chore",
     "code": ":broom:"
+  },
+  {
+    "word": "money",
+    "code": ":moneybag:"
+  },
+  {
+    "word": "never",
+    "code": ":no_entry_sign:"
   }
 ]
