@@ -534,5 +534,13 @@
   {
     "word": "never",
     "code": ":no_entry_sign:"
+  },
+  {
+    "word": "bravo",
+    "code": ":clap:"
+  },
+  {
+    "word": "viral",
+    "code": ":biohazard_sign:"
   }
 ]
