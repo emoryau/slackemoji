@@ -578,5 +578,17 @@
   {
     "word": "aroma",
     "code": ":nose:"
+  },
+  {
+    "word": "wooly",
+    "code": ":sheep:"
+  },
+  {
+    "word": "steak",
+    "code": ":cut_of_meat:"
+  },
+  {
+    "word": "valor",
+    "code": ":medal:"
   }
 ]
