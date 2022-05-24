@@ -558,5 +558,25 @@
   {
     "word": "honey",
     "code": ":honey_pot:"
+  },
+  {
+    "word": "album",
+    "code": ":record:"
+  },
+  {
+    "word": "lunar",
+    "code": ":moon:"
+  },
+  {
+    "word": "space",
+    "code": ":rocket:"
+  },
+  {
+    "word": "daily",
+    "code": ":calendar:"
+  },
+  {
+    "word": "aroma",
+    "code": ":nose:"
   }
 ]
