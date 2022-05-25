@@ -590,5 +590,33 @@
   {
     "word": "valor",
     "code": ":medal:"
+  },
+  {
+    "word": "splat",
+    "code": ":tomato-splat:"
+  },
+  {
+    "word": "broke",
+    "code": ":broken-heart:"
+  },
+  {
+    "word": "couch",
+    "code": ":couch-and-lamp:"
+  },
+  {
+    "word": "vouch",
+    "code": ":ballot_box_with_check:"
+  },
+  {
+    "word": "copse",
+    "code": ":deciduous_tree:"
+  },
+  {
+    "word": "roach",
+    "code": ":cockroach:"
+  },
+  {
+    "word": "mooch",
+    "code": ":cat:"
   }
 ]
