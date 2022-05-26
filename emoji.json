@@ -618,5 +618,21 @@
   {
     "word": "mooch",
     "code": ":cat:"
+  },
+  {
+    "word": "drone",
+    "code": ":small_airplane:"
+  },
+  {
+    "word": "wafer",
+    "code": ":cookie:"
+  },
+  {
+    "word": "catch",
+    "code": ":fishing_pole_and_fish:"
+  },
+  {
+    "word": "gamut",
+    "code": ":rainbow:"
   }
 ]
