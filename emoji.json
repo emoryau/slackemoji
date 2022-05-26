@@ -645,6 +645,18 @@
   },
   {
     "word": "asset",
-    "code": ":house:"
+    "code": ":chart_with_upwards_trend:"
+  },
+  {
+    "word": "cruft",
+    "code": ":floppy_disk:"
+  },
+  {
+    "word": "sabot",
+    "code": ":shoe:"
+  },
+  {
+    "word": "stare",
+    "code": ":eyes:"
   }
 ]
