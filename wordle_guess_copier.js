@@ -19,24 +19,29 @@ const quordleButtonStyle = 'color: rgb(255 255 255 / var(--tw-text-opacity)); ba
 const dordleButtonStyle = 'top: 50px;left: 50%;background-color: white;color: black;font-family: inherit;font-weight: bold;border-radius: 4px;cursor: pointer;border: none;user-select: none;display: flex;justify-content: center;align-items: center;text-transform: uppercase;width: 80%;font-size: 20px;height: 52px;-webkit-filter: brightness(100%);';
 const dungleonButtonStyle = 'margin-top:7px;';
 let slackEmojis = [{word:"smile",code:":smile:"},{word:"blush",code:":blush:"},{word:"smirk",code:":smirk:"},{word:"sweat",code:":sweat:"},{word:"weary",code:":weary:"},{word:"angry",code:":angry:"},{word:"alien",code:":alien:"},
-                     {word:"heart",code:":heart:"},{word:"cupid",code:":cupid:"},{word:"dizzy",code:":dizzy:"},{word:"anger",code:":anger:"},{word:"notes",code:":notes:"},{word:"punch",code:":punch:"},{word:"metal",code:":metal:"},
-                     {word:"woman",code:":woman:"},{word:"angel",code:":angel:"},{word:"skull",code:":skull:"},{word:"sunny",code:":sunny:"},{word:"cloud",code:":cloud:"},{word:"foggy",code:":foggy:"},{word:"ocean",code:":ocean:"},
-                     {word:"mouse",code:":mouse:"},{word:"tiger",code:":tiger:"},{word:"koala",code:":koala:"},{word:"horse",code:":horse:"},{word:"camel",code:":camel:"},{word:"sheep",code:":sheep:"},{word:"snake",code:":snake:"},
-                     {word:"snail",code:":snail:"},{word:"whale",code:":whale:"},{word:"tulip",code:":tulip:"},{word:"shell",code:":shell:"},{word:"dolls",code:":dolls:"},{word:"flags",code:":flags:"},{word:"ghost",code:":ghost:"},
-                     {word:"santa",code:":santa:"},{word:"phone",code:":phone:"},{word:"pager",code:":pager:"},{word:"sound",code:":sound:"},{word:"watch",code:":watch:"},{word:"radio",code:":radio:"},{word:"email",code:":email:"},
-                     {word:"pound",code:":pound:"},{word:"hocho",code:":hocho:"},{word:"books",code:":books:"},{word:"clubs",code:":clubs:"},{word:"shirt",code:":shirt:"},{word:"dress",code:":dress:"},{word:"libra",code:":libra:"},
-                     {word:"jeans",code:":jeans:"},{word:"crown",code:":crown:"},{word:"pouch",code:":pouch:"},{word:"purse",code:":purse:"},{word:"beers",code:":beers:"},{word:"pizza",code:":pizza:"},{word:"fries",code:":fries:"},
-                     {word:"curry",code:":curry:"},{word:"bento",code:":bento:"},{word:"sushi",code:":sushi:"},{word:"ramen",code:":ramen:"},{word:"dango",code:":dango:"},{word:"bread",code:":bread:"},{word:"candy",code:":candy:"},
-                     {word:"apple",code:":apple:"},{word:"lemon",code:":lemon:"},{word:"peach",code:":peach:"},{word:"melon",code:":melon:"},{word:"house",code:":house:"},{word:"hotel",code:":hotel:"},{word:"japan",code:":japan:"},
-                     {word:"stars",code:":stars:"},{word:"three",code:":three:"},{word:"seven",code:":seven:"},{word:"eight",code:":eight:"},{word:"metro",code:":metro:"},{word:"chart",code:":chart:"},{word:"aries",code:":aries:"},
-                     {word:"virgo",code:":virgo:"},{word:"train",code:":train:"},{word:'neigh',code:':horse:'},{word:'plebs',code:'man-woman-girl-boy'}];
+    {word:"heart",code:":heart:"},{word:"cupid",code:":cupid:"},{word:"dizzy",code:":dizzy:"},{word:"anger",code:":anger:"},{word:"notes",code:":notes:"},{word:"punch",code:":punch:"},{word:"metal",code:":metal:"},
+    {word:"woman",code:":woman:"},{word:"angel",code:":angel:"},{word:"skull",code:":skull:"},{word:"sunny",code:":sunny:"},{word:"cloud",code:":cloud:"},{word:"foggy",code:":foggy:"},{word:"ocean",code:":ocean:"},
+    {word:"mouse",code:":mouse:"},{word:"tiger",code:":tiger:"},{word:"koala",code:":koala:"},{word:"horse",code:":horse:"},{word:"camel",code:":camel:"},{word:"sheep",code:":sheep:"},{word:"snake",code:":snake:"},
+    {word:"snail",code:":snail:"},{word:"whale",code:":whale:"},{word:"tulip",code:":tulip:"},{word:"shell",code:":shell:"},{word:"dolls",code:":dolls:"},{word:"flags",code:":flags:"},{word:"ghost",code:":ghost:"},
+    {word:"santa",code:":santa:"},{word:"phone",code:":phone:"},{word:"pager",code:":pager:"},{word:"sound",code:":sound:"},{word:"watch",code:":watch:"},{word:"radio",code:":radio:"},{word:"email",code:":email:"},
+    {word:"pound",code:":pound:"},{word:"hocho",code:":hocho:"},{word:"books",code:":books:"},{word:"clubs",code:":clubs:"},{word:"shirt",code:":shirt:"},{word:"dress",code:":dress:"},{word:"libra",code:":libra:"},
+    {word:"jeans",code:":jeans:"},{word:"crown",code:":crown:"},{word:"pouch",code:":pouch:"},{word:"purse",code:":purse:"},{word:"beers",code:":beers:"},{word:"pizza",code:":pizza:"},{word:"fries",code:":fries:"},
+    {word:"curry",code:":curry:"},{word:"bento",code:":bento:"},{word:"sushi",code:":sushi:"},{word:"ramen",code:":ramen:"},{word:"dango",code:":dango:"},{word:"bread",code:":bread:"},{word:"candy",code:":candy:"},
+    {word:"apple",code:":apple:"},{word:"lemon",code:":lemon:"},{word:"peach",code:":peach:"},{word:"melon",code:":melon:"},{word:"house",code:":house:"},{word:"hotel",code:":hotel:"},{word:"japan",code:":japan:"},
+    {word:"stars",code:":stars:"},{word:"three",code:":three:"},{word:"seven",code:":seven:"},{word:"eight",code:":eight:"},{word:"metro",code:":metro:"},{word:"chart",code:":chart:"},{word:"aries",code:":aries:"},
+    {word:"virgo",code:":virgo:"},{word:"train",code:":train:"},{word:'neigh',code:':horse:'},{word:'plebs',code:'man-woman-girl-boy'}];
+const BLACK_SQUARE = '\u2B1B';
+const GREEN_SQUARE = '\uD83D\uDFE9';
+const YELLOW_SQUARE = '\uD83D\uDFE8';
+const BLACK_SMALL_SQUARE = '\u25AA\uFE0F';
+
 
 function getSlackEmoji(word) {
     let slackWords = _.pluck(slackEmojis, 'word');
     let matchIndex = _.indexOf(slackWords, word);
 
     if (matchIndex >= 0) {
-        return ' ' + slackEmojis[matchIndex].code;
+        return ` ${slackEmojis[matchIndex].code}`;
     } else {
         return '';
     }
@@ -45,7 +50,7 @@ function getSlackEmoji(word) {
 function formatSlackLetters(letters) {
     let emoji = getSlackEmoji(letters.toLowerCase());
 
-    return '`' + letters.toUpperCase() + '` ' + emoji;
+    return `\`${letters.toUpperCase()}\`${emoji}`;
 }
 
 let extractWordleGuesses = function (event) {
@@ -92,13 +97,13 @@ function extractWordleRow(row) {
         result.letters += letter;
 
         if (evaluation == 'correct') {
-            result.rowText += ':large-green-square:';
+            result.rowText += GREEN_SQUARE;
         } else {
             result.isSolution = false;
             if (evaluation == 'present') {
-                result.rowText += ':large-yellow-square:';
+                result.rowText += YELLOW_SQUARE;
             } else {
-                result.rowText += ':black-large-square:';
+                result.rowText += BLACK_SQUARE;
             }
         }
     });
@@ -170,17 +175,17 @@ function getQuordleRowColors(row) {
     cells.each(function(index, cell) {
         const ariaLabel = cell.getAttribute('aria-label');
         if (ariaLabel.includes('Blank')) {
-            colorText += ':black-small-square:';
+            colorText += BLACK_SMALL_SQUARE;
             isComplete = false;
         } else {
             blank = false;
             if (ariaLabel.includes('incorrect')) {
-                colorText += ':black-large-square:';
+                colorText += BLACK_SQUARE;
                 isComplete = false;
             } else if (ariaLabel.includes('correct')) {
-                colorText += ':large-green-square:';
+                colorText += GREEN_SQUARE;
             } else {
-                colorText += ':large-yellow-square:';
+                colorText += YELLOW_SQUARE;
                 isComplete = false;
             }
         }
@@ -250,14 +255,14 @@ function getDordleRow(side, rowNumber) {
         rowData.letters += cell.text();
 
         if (cell.css('background-image') != 'none') {
-            rowData.rowColors += ':large-yellow-square:';
+            rowData.rowColors += YELLOW_SQUARE;
             rowData.isBlank = false;
             rowData.isSolved = false;
         } else if (backgroundColor.includes('rgb(0, 0, 0)')) {
-            rowData.rowColors += ':black-large-square:';
+            rowData.rowColors += BLACK_SQUARE;
             rowData.isSolved = false;
         } else if (backgroundColor.includes('rgb(0, 170, 102)')) {
-            rowData.rowColors += ':large-green-square:';
+            rowData.rowColors += GREEN_SQUARE;
             rowData.isBlank = false;
         }
     }
@@ -300,10 +305,10 @@ let copyDordleGuesses = function() {
 
         // If the panel is already solved, then use small black squares to fill instead
         if (row > leftSolutionCount) {
-            leftRow.rowColors = ':black-small-square:'.repeat(5);
+            leftRow.rowColors = BLACK_SMALL_SQUARE.repeat(5);
         }
         if (row > rightSolutionCount) {
-            rightRow.rowColors = ':black-small-square:'.repeat(5);
+            rightRow.rowColors = BLACK_SMALL_SQUARE.repeat(5);
         }
 
         copyText += `${leftRow.rowColors} ${rightRow.rowColors} ${formatSlackLetters(letters)} \x0D`;
