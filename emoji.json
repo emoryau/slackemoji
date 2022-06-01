@@ -710,5 +710,17 @@
   {
     "word": "creak",
     "code": ":door:"
+  },
+  {
+    "word": "reads",
+    "code": ":book:"
+  },
+  {
+    "word": "cards",
+    "code": ":black_joker:"
+  },
+  {
+    "word": "ethyl",
+    "code": ":tumbler_glass:"
   }
 ]
