@@ -686,5 +686,29 @@
   {
     "word": "manor",
     "code": ":house:"
+  },
+  {
+    "word": "noise",
+    "code": ":loud_sound:"
+  },
+  {
+    "word": "groin",
+    "code": ":football:"
+  },
+  {
+    "word": "round",
+    "code": ":large_yellow_circle:"
+  },
+  {
+    "word": "dream",
+    "code": ":zzz:"
+  },
+  {
+    "word": "freak",
+    "code": ":scream:"
+  },
+  {
+    "word": "creak",
+    "code": ":door:"
   }
 ]
