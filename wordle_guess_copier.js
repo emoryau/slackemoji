@@ -323,6 +323,16 @@ let appendDordleCopyButton = function() {
     app.append(copyTag);
 }
 
+let updateDataAndCopy = function(copyButtonFn, event) {
+    downloadEmoji(function(data) {
+        slackEmojis = data;
+        copyButtonFn(event);
+    }, function() {
+        alert('Failed to download slack emoji, using default list');
+        copyButtonFn(event);
+    });
+}
+
 function getDungleonCellSymbol(cell) {
     let nameLabel = $('.name-label', cell).text().toLowerCase();
 
@@ -432,7 +442,7 @@ let appendDungleonCopyButton = function() {
 
 function createCopyTag(clickEventHandler, buttonStyle) {
     let tag = document.createElement("button");
-    tag.addEventListener('click', clickEventHandler);
+    tag.addEventListener('click', function(event){updateDataAndCopy(clickEventHandler, event)});
     tag.setAttribute('style',buttonStyle);
 
     let text = document.createTextNode("Copy them guesses!");
@@ -503,12 +513,13 @@ console.debug('User Script detected ', gameSettings.game);
 gameSettings.appendCopyButton();
 
 // Fetch valid slack emojis and replace the pre-defined list
-$.ajax({
-    'async': true,
-    'global': false,
-    'url': 'https://raw.githubusercontent.com/emoryau/slackemoji/main/emoji.json',
-    'dataType': 'json',
-    'success': function(data) {
-        slackEmojis = data;
-    }
-});
+function downloadEmoji(success, failure) {
+    $.ajax({
+        'async': true,
+        'global': false,
+        'url': 'https://raw.githubusercontent.com/emoryau/slackemoji/main/emoji.json',
+        'dataType': 'json',
+        'success': success,
+        'error': failure
+    });
+}
