@@ -31,9 +31,14 @@ let slackEmojis = [{word:"smile",code:":smile:"},{word:"blush",code:":blush:"},{
     {word:"stars",code:":stars:"},{word:"three",code:":three:"},{word:"seven",code:":seven:"},{word:"eight",code:":eight:"},{word:"metro",code:":metro:"},{word:"chart",code:":chart:"},{word:"aries",code:":aries:"},
     {word:"virgo",code:":virgo:"},{word:"train",code:":train:"},{word:'neigh',code:':horse:'},{word:'plebs',code:'man-woman-girl-boy'}];
 const BLACK_SQUARE = '\u2B1B';
-const GREEN_SQUARE = '\uD83D\uDFE9';
-const YELLOW_SQUARE = '\uD83D\uDFE8';
+const GREEN_SQUARE = '\u{1F7E9}';
+const YELLOW_SQUARE = '\u{1F7E8}';
+const RED_SQUARE = '\u{1F7E5}';
+const PURPLE_SQUARE = '\u{1F7EA}';
 const BLACK_SMALL_SQUARE = '\u25AA\uFE0F';
+const CROSSED_SWORDS = '\u2694\uFE0F';
+const JAPANESE_OGRE = '\u{1F479}';
+const COIN = '\u{1FA99}';
 
 
 function getSlackEmoji(word) {
@@ -354,7 +359,6 @@ function getDungleonCellSymbol(cell) {
         return `:dungleon-${nameLabel}:`;
     }
 
-    console.debug(nameLabel);
     return nameLabel;
 }
 
@@ -367,11 +371,11 @@ function getDungleonRow(row, rowIndex) {
     $('.cell', row).each(function(cellIndex) {
         let cell = $(this);
         if(cell.hasClass('wrong')) {
-            rowColors += ':large_purple_square:';
+            rowColors += PURPLE_SQUARE;
         } else if (cell.hasClass('correct')) {
-            rowColors += ':large_green_square:';
+            rowColors += GREEN_SQUARE;
         } else {
-            rowColors += ':large_yellow_square:';
+            rowColors += YELLOW_SQUARE;
         }
 
         rowSymbols += getDungleonCellSymbol(cell);
@@ -413,7 +417,7 @@ let copyDungleonGuesses = function() {
     });
 
     if($('#hard-mode-badge').length) {
-        difficultyCrystal = ' :small_orange_diamond:';
+        difficultyCrystal = ' \u{1F538}'; // :small_orange_diamond:
     }
 
     const puzzleNumber = $('#puzzle-number').text();
@@ -424,7 +428,8 @@ let copyDungleonGuesses = function() {
     const monstersCount = $('#monsters-counter').text();
     const goldCount = $('#gold-counter').text();
     const streak = $('.value.victory').text();
-    output += `${heroCount}:crossed_swords: ${monstersCount}:japanese_ogre: ${goldCount}:coin: \x0D`;
+
+    output += `${heroCount}${CROSSED_SWORDS} ${monstersCount}${JAPANESE_OGRE} ${goldCount}${COIN} \x0D`;
     output += `Streak: ${streak}`;
 
     copyRichText(output);
@@ -459,31 +464,19 @@ function createCopyTag(clickEventHandler, buttonStyle) {
 
 function getSlackNumber(numeral, max) {
     if (numeral > max) {
-        return ':large_red_square:';
+        return RED_SQUARE;
     }
 
-    switch (numeral) {
-        case 1:
-            return ':one:';
-        case 2:
-            return ':two:';
-        case 3:
-            return ':three:';
-        case 4:
-            return ':four:';
-        case 5:
-            return ':five:';
-        case 6:
-            return ':six:';
-        case 7:
-            return ':seven:';
-        case 8:
-            return ':eight:';
-        case 9:
-            return ':nine:';
-    }
+    // Slack numbers are qualified with two combining marks
+    // 0xFE0F unknown, possibly color? Outside of standard Unicode range
+    // 0x20E3 'combining enclosing keycap'
+    const SLACK_QUALIFIERS = '\uFE0F\u20E3';
 
-    return ':large_red_square:';
+    if (numeral >= 1 && numeral <= 9) {
+        return `${numeral}${SLACK_QUALIFIERS}`;
+    } else {
+        return RED_SQUARE;
+    }
 }
 
 function copyRichText(text) {
