@@ -185,5 +185,6 @@
   {"word": "shock", "code": ":zap:"},
   {"word": "shown", "code": ":movie_camera:"},
   {"word": "phase", "code": ":moon:"},
-  {"word": "sword", "code": ":crossed_swords:"}
+  {"word": "sword", "code": ":crossed_swords:"},
+  {"word": "froth", "code": ":beers:"}
 ]
