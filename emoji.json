@@ -191,5 +191,7 @@
   {"word": "grade", "code": ":teacher:"},
   {"word": "reign", "code": ":crown:"},
   {"word": "grace", "code": ":dancer:"},
-  {"word": "graze", "code": ":cow:"}
+  {"word": "graze", "code": ":cow:"},
+  {"word": "depth", "code": ":hole:"},
+  {"word": "grope", "code": ":hand:"}
 ]
