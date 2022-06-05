@@ -186,5 +186,10 @@
   {"word": "shown", "code": ":movie_camera:"},
   {"word": "phase", "code": ":moon:"},
   {"word": "sword", "code": ":crossed_swords:"},
-  {"word": "froth", "code": ":beers:"}
+  {"word": "froth", "code": ":beers:"},
+  {"word": "forge", "code": ":fire:"},
+  {"word": "grade", "code": ":teacher:"},
+  {"word": "reign", "code": ":crown:"},
+  {"word": "grace", "code": ":dancer:"},
+  {"word": "graze", "code": ":cow:"}
 ]
