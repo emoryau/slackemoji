@@ -196,5 +196,7 @@
   {"word": "grope", "code": ":hand:"},
   {"word": "buxom", "code": ":woman-with-bunny-ears-partying:"},
   {"word": "tipsy", "code": ":cocktail:"},
-  {"word": "boron", "code": ":test_tube:"}
+  {"word": "boron", "code": ":test_tube:"},
+  {"word": "flora", "code": ":tulip:"},
+  {"word": "gloom", "code": ":mushroom-cloud:"}
 ]
