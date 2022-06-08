@@ -199,5 +199,6 @@
   {"word": "boron", "code": ":test_tube:"},
   {"word": "flora", "code": ":tulip:"},
   {"word": "gloom", "code": ":mushroom-cloud:"},
-  {"word": "flood", "code": ":ocean:"}
+  {"word": "flood", "code": ":ocean:"},
+  {"word": "trait", "code": ":dna:"}
 ]
