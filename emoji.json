@@ -202,5 +202,9 @@
   {"word": "flood", "code": ":ocean:"},
   {"word": "trait", "code": ":dna:"},
   {"word": "torch", "code": ":fire:"},
+  {"word": "intro", "code": ":drum_with_drumsticks:"},
+  {"word": "stair", "code": ":signal_strength:"},
+  {"word": "right", "code": ":arrow_right:"},
+  {"word": "drive", "code": ":racing_car:"},
   {"word": "girth", "code": ":weight_lifter:"}
 ]
