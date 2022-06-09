@@ -200,5 +200,7 @@
   {"word": "flora", "code": ":tulip:"},
   {"word": "gloom", "code": ":mushroom-cloud:"},
   {"word": "flood", "code": ":ocean:"},
-  {"word": "trait", "code": ":dna:"}
+  {"word": "trait", "code": ":dna:"},
+  {"word": "torch", "code": ":fire:"},
+  {"word": "girth", "code": ":weight_lifter:"}
 ]
