@@ -206,5 +206,7 @@
   {"word": "stair", "code": ":signal_strength:"},
   {"word": "right", "code": ":arrow_right:"},
   {"word": "drive", "code": ":racing_car:"},
+  {"word": "preen", "code": ":bird:"},
+  {"word": "piety", "code": ":church:"},
   {"word": "girth", "code": ":weight_lifter:"}
 ]
