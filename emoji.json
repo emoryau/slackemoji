@@ -208,5 +208,7 @@
   {"word": "drive", "code": ":racing_car:"},
   {"word": "preen", "code": ":bird:"},
   {"word": "piety", "code": ":church:"},
+  {"word": "dowry", "code": ":bride_with_veil:"},
+  {"word": "donor", "code": ":drop_of_blood:"},
   {"word": "girth", "code": ":weight_lifter:"}
 ]
