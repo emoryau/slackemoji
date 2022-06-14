@@ -210,5 +210,8 @@
   {"word": "piety", "code": ":church:"},
   {"word": "dowry", "code": ":bride_with_veil:"},
   {"word": "donor", "code": ":drop_of_blood:"},
+  {"word": "tamer", "code": ":lion_face:"},
+  {"word": "death", "code": ":skull_and_crossbones:"},
+  {"word": "atone", "code": ":male_genie:"},
   {"word": "girth", "code": ":weight_lifter:"}
 ]
