@@ -213,5 +213,8 @@
   {"word": "tamer", "code": ":lion_face:"},
   {"word": "death", "code": ":skull_and_crossbones:"},
   {"word": "atone", "code": ":male_genie:"},
-  {"word": "girth", "code": ":weight_lifter:"}
+  {"word": "girth", "code": ":weight_lifter:"},
+  {"word": "pricy", "code": ":heavy_dollar_sign:"},
+  {"word": "primp", "code": ":haircut:"},
+  {"word": "primo", "code": ":100:"}
 ]
