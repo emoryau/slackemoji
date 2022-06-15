@@ -1,4 +1,11 @@
 [
+  {"word": "heart", "code": ":anatomical_heart:"},
+  {"word": "round", "code": ":o:"},
+  {"word": "growl", "code": ":wolf:"},
+  {"word": "prior", "code": ":black_left_pointing_double_triangle_with_vertical_bar:"},
+  {"word": "stung", "code": ":bee:"},
+  {"word": "dream", "code": ":sleeping:"},
+  {"word": "crimp", "code": ":aquarius:"},
   {"word": "paint", "code": ":lower_left_paintbrush:"},
   {"word": "three", "code": ":three:"},
   {"word": "seven", "code": ":seven:"},
@@ -217,5 +224,5 @@
   {"word": "girth", "code": ":weight_lifter:"},
   {"word": "pricy", "code": ":heavy_dollar_sign:"},
   {"word": "primp", "code": ":haircut:"},
-  {"word": "primo", "code": ":100:"}
+  {"word": "primo", "code": ":ok_hand:"}
 ]
