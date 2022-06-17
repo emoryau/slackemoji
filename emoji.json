@@ -1,4 +1,6 @@
 [
+  {"word": "black", "code": ":black_large_square:"},
+  {"word": "blown", "code": ":exploding_head:"},
   {"word": "happy", "code": ":smile:"},
   {"word": "apart", "code": ":left_right_arrow:"},
   {"word": "apron", "code": ":cook:"},
