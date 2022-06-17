@@ -1,4 +1,12 @@
 [
+  {"word": "happy", "code": ":smile:"},
+  {"word": "apart", "code": ":left_right_arrow:"},
+  {"word": "apron", "code": ":cook:"},
+  {"word": "baron", "code": ":face_with_monocle:"},
+  {"word": "guilt", "code": ":smiley_cat:"},
+  {"word": "heron", "code": ":bird:"},
+  {"word": "fount", "code": ":fountain:"},
+  {"word": "moron", "code": "::woozy_face::"},
   {"word": "teach", "code": ":teacher:"},
   {"word": "vaute", "code": ":bank:"},
   {"word": "bidet", "code": ":toilet:"},
