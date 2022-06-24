@@ -29,7 +29,7 @@ let slackEmojis = [{word:"smile",code:":smile:"},{word:"blush",code:":blush:"},{
     {word:"curry",code:":curry:"},{word:"bento",code:":bento:"},{word:"sushi",code:":sushi:"},{word:"ramen",code:":ramen:"},{word:"dango",code:":dango:"},{word:"bread",code:":bread:"},{word:"candy",code:":candy:"},
     {word:"apple",code:":apple:"},{word:"lemon",code:":lemon:"},{word:"peach",code:":peach:"},{word:"melon",code:":melon:"},{word:"house",code:":house:"},{word:"hotel",code:":hotel:"},{word:"japan",code:":japan:"},
     {word:"stars",code:":stars:"},{word:"three",code:":three:"},{word:"seven",code:":seven:"},{word:"eight",code:":eight:"},{word:"metro",code:":metro:"},{word:"chart",code:":chart:"},{word:"aries",code:":aries:"},
-    {word:"virgo",code:":virgo:"},{word:"train",code:":train:"},{word:'neigh',code:':horse:'},{word:'plebs',code:'man-woman-girl-boy'}];
+    {word:"virgo",code:":virgo:"},{word:"train",code:":train:"},{word:'neigh',code:':horse:'},{word:'plebs',code:':man-woman-girl-boy:'}];
 const BLACK_SQUARE = '\u2B1B';
 const GREEN_SQUARE = '\u{1F7E9}';
 const YELLOW_SQUARE = '\u{1F7E8}';
@@ -116,14 +116,97 @@ function extractWordleRow(row) {
     return result;
 }
 
+function extractWordleRow_2(letterElements) {
+    let result = {rowText: '', letters: '', isSolution: true};
+
+    result.letters = letterElements.text();
+
+    letterElements.each((index,element) => {
+        console.log(element);
+        let evaluation = element.getAttribute('data-state');
+
+        if (evaluation == 'correct') {
+            result.rowText += GREEN_SQUARE;
+        } else {
+            result.isSolution = false;
+            if (evaluation == 'present') {
+                result.rowText += YELLOW_SQUARE;
+            } else {
+                result.rowText += BLACK_SQUARE;
+            }
+        }
+    });
+
+    return result;
+}
+
+let extractWordle2Guesses = function (event) {
+    const gameRows = $('[class^="Row-module_row"]');
+
+    let clipboardText = '';
+
+    let rowCount = 0;
+
+        console.log(gameRows);
+
+    gameRows.each(function(index, element) {
+        let letterElements = $('[class^="Tile-module_tile"]', element);
+        console.log(letterElements);
+        console.log(letterElements.text());
+
+        let rowData = extractWordleRow_2(letterElements);
+        clipboardText += rowData.rowText + ' ' + formatSlackLetters(rowData.letters) + '\x0D';
+
+        if (rowData.isSolution) {
+            rowCount = index + 1;
+            return false;
+        }
+
+    });
+
+    clipboardText = 'Wordle ' + getSlackNumber(rowCount, 6) + '/6* \x0D' + clipboardText;
+
+    copyRichText(clipboardText);
+
+    event.stopImmediatePropagation();
+}
+
+function detectWordleVersion() {
+    // There are now multiple versions of pages, test for which version we are using
+    const originalVersion = $('game-app')[0];
+    if (originalVersion) {
+        console.log("Original Version");
+        return 'og';
+    }
+    const version2 = $('[class^="Row-module_row"]');
+    if (version2) {
+        console.log("Version 2");
+        return 'version2';
+    }
+}
 
 let appendWordleCopyButton = function() {
-    const copyTag = createCopyTag(extractWordleGuesses, wordleButtonStyle);
+    const wordleVersionEntryPoints = {'og': extractWordleGuesses, 'version2': extractWordle2Guesses};
+    const wordleVersion = detectWordleVersion();
 
-    const gameApp = $('game-app')[0];
-    const gameModal = $('game-modal', gameApp.shadowRoot)[0];
-    const modalContent = $('div.content', gameModal.shadowRoot)[0];
-    modalContent.prepend(copyTag);
+    const copyTag = createCopyTag(wordleVersionEntryPoints[wordleVersion], wordleButtonStyle);
+
+    switch (wordleVersion) {
+        case 'og':
+            {
+                const gameApp = $('game-app')[0];
+                const gameModal = $('game-modal', gameApp.shadowRoot)[0];
+                const modalContent = $('div.content', gameModal.shadowRoot)[0];
+                modalContent.prepend(copyTag);
+            }
+            break;
+        case 'version2':
+            {
+                const modalContent = $('[class^="AppHeader-module_appHeader"]')[0];
+                modalContent.prepend(copyTag);
+            }
+            break;
+    }
 }
 
 
@@ -337,7 +420,8 @@ let updateDataAndCopy = function(copyButtonFn, event) {
     downloadEmoji(function(data) {
         slackEmojis = data;
         copyButtonFn(event);
-    }, function() {
+    }, function(XMLHttpRequest, textStatus, errorThrown) {
+        console.log(XMLHttpRequest, textStatus, errorThrown);
         alert('Failed to download slack emoji, using default list');
         copyButtonFn(event);
     });
@@ -467,6 +551,9 @@ function getSlackNumber(numeral, max) {
         return RED_SQUARE;
     }
 
+    return numeral;
+    // Disabled the colored numbers for now, they're a bit annoying.
+
     // Slack numbers are qualified with two combining marks
     // 0xFE0F unknown, possibly color? Outside of standard Unicode range
     // 0x20E3 'combining enclosing keycap'
@@ -504,15 +591,17 @@ function detectGame() {
     }
 }
 
-const gameSettings = detectGame();
+$(function() {
+    const gameSettings = detectGame();
 
-console.debug('User Script detected ', gameSettings.game);
+    console.debug('User Script detected ', gameSettings.game);
 
-gameSettings.appendCopyButton();
+    gameSettings.appendCopyButton();
+});
 
 // Fetch valid slack emojis and replace the pre-defined list
 function downloadEmoji(success, failure) {
-    $.ajax({
+    return $.ajax({
         'async': true,
         'global': false,
         'url': 'https://raw.githubusercontent.com/emoryau/slackemoji/main/emoji.json',
