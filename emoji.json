@@ -1,4 +1,6 @@
 [
+  {"word": "beady", "code": ":no_mouth:"},
+  {"word": "share", "code": ":people_holding_hands:"},
   {"word": "smite", "code": ":raised_back_of_hand:"},
   {"word": "stole", "code": ":hamburglar:"},
   {"word": "bound", "code": ":knot:"},
@@ -232,6 +234,7 @@
   {"word": "reads", "code": ":book:"},
   {"word": "cards", "code": ":black_joker:"},
   {"word": "ethyl", "code": ":tumbler_glass:"},
+  {"word": "beach", "code": ":beach_with_umbrella:"},
   {"word": "sandy", "code": ":beach_with_umbrella:"},
   {"word": "showy", "code": ":dancers:"},
   {"word": "shock", "code": ":zap:"},

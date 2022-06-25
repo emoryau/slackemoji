@@ -122,7 +122,6 @@ function extractWordleRow_2(letterElements) {
     result.letters = letterElements.text();
 
     letterElements.each((index,element) => {
-        console.log(element);
         let evaluation = element.getAttribute('data-state');
 
         if (evaluation == 'correct') {
@@ -147,12 +146,8 @@ let extractWordle2Guesses = function (event) {
 
     let rowCount = 0;
 
-        console.log(gameRows);
-
     gameRows.each(function(index, element) {
         let letterElements = $('[class^="Tile-module_tile"]', element);
-        console.log(letterElements);
-        console.log(letterElements.text());
 
         let rowData = extractWordleRow_2(letterElements);
         clipboardText += rowData.rowText + ' ' + formatSlackLetters(rowData.letters) + '\x0D';
@@ -175,12 +170,10 @@ function detectWordleVersion() {
     // There are now multiple versions of pages, test for which version we are using
     const originalVersion = $('game-app')[0];
     if (originalVersion) {
-        console.log("Original Version");
         return 'og';
     }
     const version2 = $('[class^="Row-module_row"]');
     if (version2) {
-        console.log("Version 2");
         return 'version2';
     }
 }
