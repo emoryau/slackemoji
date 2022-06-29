@@ -1,4 +1,13 @@
 [
+  {"word": "laugh", "code": ":face_vomiting:"},
+  {"word": "troll", "code": ":face_vomiting:"},
+  {"word": "droll", "code": ":face_vomiting:"},
+  {"word": "retch", "code": ":face_vomiting:"},
+  {"word": "rebut", "code": ":nerd_face:"},
+  {"word": "riled", "code": ":angry:"},
+  {"word": "flack", "code": ":face_with_symbols_on_mouth:"},
+  {"word": "hoist", "code": ":weight_lifter:"},
+  {"word": "trope", "code": ":tv:"},
   {"word": "feint", "code": ":fencer:"},
   {"word": "retro", "code": ":rocket:"},
   {"word": "shout", "code": ":open_mouth:"},
