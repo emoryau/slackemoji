@@ -257,6 +257,8 @@ function copyQuordleBoardRow(gameBoardLeft, gameBoardRight) {
     let leftRows = $('[role="row"]', gameBoardLeft);
     let rightRows = $('[role="row"]', gameBoardRight);
 
+    let rowLetters = [];
+
     leftRows.each(function(index, leftRow) {
         let letters = '';
 
@@ -284,9 +286,11 @@ function copyQuordleBoardRow(gameBoardLeft, gameBoardRight) {
         }
 
         rowText += leftRowDetails.colorText + ' ' + rightRowDetails.colorText + ' ' + formatSlackLetters(letters) + '\x0D';
+
+        rowLetters.push(letters);
     });
 
-    return {rowText: rowText, leftCount: leftCount, rightCount: rightCount};
+    return {rowText: rowText, leftCount: leftCount, rightCount: rightCount, rowLetters: rowLetters};
 }
 
 function getQuordleRowColors(row) {
@@ -335,7 +339,16 @@ function copyQuordleGuesses() {
     clipboardText += '\x0D';
     clipboardText += bottomBoards.rowText;
 
-    copyRichText(clipboardText);
+    let guessData = {clipboardText: clipboardText, rowData: []};
+
+    // Push the array of letters that is longer
+    if (topBoards.rowLetters.length > bottomBoards.rowLetters.length) {
+        topBoards.rowLetters.forEach(letters => guessData.rowData.push({letters: letters}));
+    } else {
+        bottomBoards.rowLetters.forEach(letters => guessData.rowData.push({letters: letters}));
+    }
+
+    return guessData;
 }
 
 // TODO: this isn't working yet, still not activating when the quordle is solved
@@ -432,7 +445,7 @@ let copyDordleGuesses = function() {
     }
 
     const gameTitle = $('#game_title').text();
-    guessData.clipboardText = `${gameTitle} ${getSlackNumber(leftSolutionCount, 7)}${getSlackNumber(rightSolutionCount, 7)} \x0D` + copyText;
+    guessData.clipboardText = `${gameTitle} ${getSlackNumber(leftSolutionCount, 7)}/${getSlackNumber(rightSolutionCount, 7)} \x0D` + copyText;
 
     return guessData;
 }

@@ -1,5 +1,11 @@
 [
-  {
+  {"word":"stand","code":":standing_person:"},
+  {"word":"baste","code":":turkey:"},
+  {"word":"caner","code":":chair:"},
+  {"word":"widow","code":":older_woman:"},
+  {"word":"staid","code":":face_with_monocle:"},
+  {"word":"woody","code":":wood:"},
+    {
     "word": "thane",
     "code": ":cityscape:"
   },
