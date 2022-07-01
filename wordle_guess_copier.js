@@ -15,7 +15,7 @@
 // ==/UserScript==
 
 const wordleButtonStyle = 'top: 50px;left: 50%;background-color: var(--color-correct);color: var(--key-evaluated-text-color);font-family: inherit;font-weight: bold;border-radius: 4px;cursor: pointer;border: none;user-select: none;display: flex;justify-content: center;align-items: center;text-transform: uppercase;width: 80%;font-size: 20px;height: 52px;-webkit-filter: brightness(100%);margin:5px;';
-const dordleButtonStyle = 'top: 50px;left: 50%;background-color: white;color: black;font-family: inherit;font-weight: bold;border-radius: 4px;cursor: pointer;border: none;user-select: none;display: flex;justify-content: center;align-items: center;text-transform: uppercase;width: 80%;font-size: 20px;height: 52px;-webkit-filter: brightness(100%);';
+const dordleButtonStyle = 'background-color: white;color: black;font-family: inherit;font-weight: bold;border-radius: 4px;cursor: pointer;border: none;user-select: none;justify-content: center;align-items: center;text-transform: uppercase;width: 40%;font-size: 20px;-webkit-filter: brightness(100%);margin:5px;';
 const quordleButtonStyle = 'color: rgb(255 255 255 / var(--tw-text-opacity)); background-color:rgb(37,99,235); font-weight:500; padding:.75rem; border-radius:.5rem; border-color:white;';
 const dungleonButtonStyle = 'margin-top:7px;';
 const BLACK_SQUARE = '\u2B1B';
@@ -213,7 +213,7 @@ let copyJSON = function(event) {
     guessData.rowData.forEach((row) => {
         // If emoji is empty
         if (row.letters && getSlackEmoji(row.letters.toLowerCase()) === '') {
-            clipboardText += JSON.stringify({'word': row.letters, 'code': ':shrug:'}) + ',\x0D';
+            clipboardText += JSON.stringify({'word': row.letters.toLowerCase(), 'code': ':shrug:'}) + ',\x0D';
         }
     });
 
@@ -389,6 +389,7 @@ let copyDordleGuesses = function() {
     let letters = '';
     let leftSolutionCount = 8;
     let rightSolutionCount = 8;
+    let guessData = {rowData:[], clipboardText: ''};
 
     for (let row = 1; row <= 7; row++) {
         // if both sides are already solved, stop iterating
@@ -425,15 +426,15 @@ let copyDordleGuesses = function() {
             rightRow.rowColors = BLACK_SMALL_SQUARE.repeat(5);
         }
 
+        guessData.rowData.push({letters: letters});
+
         copyText += `${leftRow.rowColors} ${rightRow.rowColors} ${formatSlackLetters(letters)} \x0D`;
     }
 
     const gameTitle = $('#game_title').text();
-    copyText = `${gameTitle} ${getSlackNumber(leftSolutionCount, 7)}${getSlackNumber(rightSolutionCount, 7)} \x0D` + copyText;
+    guessData.clipboardText = `${gameTitle} ${getSlackNumber(leftSolutionCount, 7)}${getSlackNumber(rightSolutionCount, 7)} \x0D` + copyText;
 
-    copyRichText(copyText);
-
-    return;
+    return guessData;
 }
 
 
@@ -609,6 +610,7 @@ function downloadEmoji(success, failure) {
         'global': false,
         'url': 'https://raw.githubusercontent.com/emoryau/slackemoji/main/emoji.json',
         'dataType': 'json',
+        'cache': false,
         'success': success,
         'error': failure
     });

@@ -1,5 +1,29 @@
 [
   {
+    "word": "thane",
+    "code": ":cityscape:"
+  },
+  {
+    "word": "jetty",
+    "code": ":ocean:"
+  },
+  {
+    "word": "route",
+    "code": ":motorway:"
+  },
+  {
+    "word": "lapel",
+    "code": ":person_in_tuxedo:"
+  },
+  {
+    "word": "freet",
+    "code": ":ladder:"
+  },
+  {
+    "word": "egret",
+    "code": ":swan:"
+  },
+  {
     "word": "piton",
     "code": ":person_climbing:"
   },
