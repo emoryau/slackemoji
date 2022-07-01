@@ -1,288 +1,1162 @@
 [
-  {"word": "laugh", "code": ":face_vomiting:"},
-  {"word": "troll", "code": ":face_vomiting:"},
-  {"word": "droll", "code": ":face_vomiting:"},
-  {"word": "retch", "code": ":face_vomiting:"},
-  {"word": "rebut", "code": ":nerd_face:"},
-  {"word": "riled", "code": ":angry:"},
-  {"word": "flack", "code": ":face_with_symbols_on_mouth:"},
-  {"word": "hoist", "code": ":weight_lifter:"},
-  {"word": "trope", "code": ":tv:"},
-  {"word": "feint", "code": ":fencer:"},
-  {"word": "retro", "code": ":rocket:"},
-  {"word": "shout", "code": ":open_mouth:"},
-  {"word": "rusty", "code": ":aries:"},
-  {"word": "beady", "code": ":no_mouth:"},
-  {"word": "share", "code": ":people_holding_hands:"},
-  {"word": "smite", "code": ":raised_back_of_hand:"},
-  {"word": "stole", "code": ":hamburglar:"},
-  {"word": "bound", "code": ":knot:"},
-  {"word": "briny", "code": ":shrimp:"},
-  {"word": "bring", "code": ":guide_dog:"},
-  {"word": "brink", "code": ":hole:"},
-  {"word": "latch", "code": ":briefcase:"},
-  {"word": "frail", "code": ":older_adult:"},
-  {"word": "awful", "code": ":face_vomiting:"},
-  {"word": "flock", "code": ":bird:"},
-  {"word": "glory", "code": ":flag-us:"},
-  {"word": "glout", "code": ":white_frowning_face:"},
-  {"word": "gloat", "code": ":sunglasses:"},
-  {"word": "shelf", "code": ":goal_net:"},
-  {"word": "lease", "code": ":page_with_curl:"},
-  {"word": "loser", "code": ":sob:"},
-  {"word": "gauch", "code": ":money_mouth_face:"},
-  {"word": "canny", "code": ":canned_food:"},
-  {"word": "cacao", "code": ":chocolate_bar:"},
-  {"word": "fight", "code": ":punch:"},
-  {"word": "cloak", "code": ":supervillain:"},
-  {"word": "bosom", "code": ":coconut:"},
-  {"word": "omega", "code": ":libra:"},
-  {"word": "drank", "code": ":mate_drink:"},
-  {"word": "minus", "code": ":heavy_minus_sign:"},
-  {"word": "novel", "code": ":orange_book:"},
-  {"word": "pylon", "code": ":no_entry:"},
-  {"word": "clown", "code": ":clown_face:"},
-  {"word": "stoic", "code": ":moyai:"},
-  {"word": "drown", "code": ":ocean:"},
-  {"word": "blind", "code": ":woman_with_probing_cane:"},
-  {"word": "black", "code": ":black_large_square:"},
-  {"word": "blown", "code": ":exploding_head:"},
-  {"word": "happy", "code": ":smile:"},
-  {"word": "apart", "code": ":left_right_arrow:"},
-  {"word": "apron", "code": ":cook:"},
-  {"word": "baron", "code": ":face_with_monocle:"},
-  {"word": "guilt", "code": ":smiley_cat:"},
-  {"word": "heron", "code": ":bird:"},
-  {"word": "fount", "code": ":fountain:"},
-  {"word": "moron", "code": "::woozy_face::"},
-  {"word": "teach", "code": ":teacher:"},
-  {"word": "vaute", "code": ":bank:"},
-  {"word": "bidet", "code": ":toilet:"},
-  {"word": "heart", "code": ":anatomical_heart:"},
-  {"word": "round", "code": ":o:"},
-  {"word": "growl", "code": ":wolf:"},
-  {"word": "prior", "code": ":black_left_pointing_double_triangle_with_vertical_bar:"},
-  {"word": "stung", "code": ":bee:"},
-  {"word": "dream", "code": ":sleeping:"},
-  {"word": "crimp", "code": ":aquarius:"},
-  {"word": "paint", "code": ":lower_left_paintbrush:"},
-  {"word": "three", "code": ":three:"},
-  {"word": "seven", "code": ":seven:"},
-  {"word": "eight", "code": ":eight:"},
-  {"word": "foggy", "code": ":foggy:"},
-  {"word": "ocean", "code": ":ocean:"},
-  {"word": "stars", "code": ":stars:"},
-  {"word": "tulip", "code": ":tulip:"},
-  {"word": "melon", "code": ":melon:"},
-  {"word": "lemon", "code": ":lemon:"},
-  {"word": "apple", "code": ":apple:"},
-  {"word": "peach", "code": ":peach:"},
-  {"word": "pizza", "code": ":pizza:"},
-  {"word": "curry", "code": ":curry:"},
-  {"word": "ramen", "code": ":ramen:"},
-  {"word": "bread", "code": ":bread:"},
-  {"word": "fries", "code": ":fries:"},
-  {"word": "dango", "code": ":dango:"},
-  {"word": "sushi", "code": ":sushi:"},
-  {"word": "candy", "code": ":candy:"},
-  {"word": "bento", "code": ":bento:"},
-  {"word": "beers", "code": ":beers:"},
-  {"word": "santa", "code": ":santa:"},
-  {"word": "dolls", "code": ":dolls:"},
-  {"word": "flags", "code": ":flags:"},
-  {"word": "medal", "code": ":medal:"},
-  {"word": "notes", "code": ":notes:"},
-  {"word": "house", "code": ":house:"},
-  {"word": "hotel", "code": ":hotel:"},
-  {"word": "label", "code": ":label:"},
-  {"word": "snail", "code": ":snail:"},
-  {"word": "snake", "code": ":snake:"},
-  {"word": "sheep", "code": ":sheep:"},
-  {"word": "shell", "code": ":shell:"},
-  {"word": "koala", "code": ":koala:"},
-  {"word": "camel", "code": ":camel:"},
-  {"word": "mouse", "code": ":mouse:"},
-  {"word": "tiger", "code": ":tiger:"},
-  {"word": "whale", "code": ":whale:"},
-  {"word": "horse", "code": ":horse:"},
-  {"word": "punch", "code": ":punch:"},
-  {"word": "crown", "code": ":crown:"},
-  {"word": "shirt", "code": ":shirt:"},
-  {"word": "jeans", "code": ":jeans:"},
-  {"word": "dress", "code": ":dress:"},
-  {"word": "purse", "code": ":purse:"},
-  {"word": "pouch", "code": ":pouch:"},
-  {"word": "woman", "code": ":woman:"},
-  {"word": "ghost", "code": ":ghost:"},
-  {"word": "angel", "code": ":angel:"},
-  {"word": "alien", "code": ":alien:"},
-  {"word": "skull", "code": ":skull:"},
-  {"word": "cupid", "code": ":cupid:"},
-  {"word": "anger", "code": ":anger:"},
-  {"word": "dizzy", "code": ":dizzy:"},
-  {"word": "pound", "code": ":pound:"},
-  {"word": "chart", "code": ":chart:"},
-  {"word": "books", "code": ":books:"},
-  {"word": "pager", "code": ":pager:"},
-  {"word": "radio", "code": ":radio:"},
-  {"word": "sound", "code": ":sound:"},
-  {"word": "hocho", "code": ":hocho:"},
-  {"word": "knife", "code": ":knife:"},
-  {"word": "kaaba", "code": ":kaaba:"},
-  {"word": "japan", "code": ":japan:"},
-  {"word": "moyai", "code": ":moyai:"},
-  {"word": "smile", "code": ":smile:"},
-  {"word": "blush", "code": ":blush:"},
-  {"word": "smirk", "code": ":smirk:"},
-  {"word": "sweat", "code": ":sweat:"},
-  {"word": "angry", "code": ":angry:"},
-  {"word": "weary", "code": ":weary:"},
-  {"word": "metro", "code": ":metro:"},
-  {"word": "train", "code": ":train:"},
-  {"word": "truck", "code": ":truck:"},
-  {"word": "wheel", "code": ":wheel:"},
-  {"word": "canoe", "code": ":canoe:"},
-  {"word": "shrug", "code": ":shrug:"},
-  {"word": "spoon", "code": ":spoon:"},
-  {"word": "bacon", "code": ":bacon:"},
-  {"word": "mango", "code": ":mango:"},
-  {"word": "bagel", "code": ":bagel:"},
-  {"word": "ninja", "code": ":ninja:"},
-  {"word": "eagle", "code": ":eagle:"},
-  {"word": "shark", "code": ":shark:"},
-  {"word": "squid", "code": ":squid:"},
-  {"word": "llama", "code": ":llama:"},
-  {"word": "sloth", "code": ":sloth:"},
-  {"word": "otter", "code": ":otter:"},
-  {"word": "skunk", "code": ":skunk:"},
-  {"word": "bison", "code": ":bison:"},
-  {"word": "tooth", "code": ":tooth:"},
-  {"word": "onion", "code": ":onion:"},
-  {"word": "troll", "code": ":troll:"},
-  {"word": "judge", "code": ":judge:"},
-  {"word": "pilot", "code": ":pilot:"},
-  {"word": "adult", "code": ":adult:"},
-  {"word": "child", "code": ":child:"},
-  {"word": "fairy", "code": ":fairy:"},
-  {"word": "genie", "code": ":genie:"},
-  {"word": "brain", "code": ":brain:"},
-  {"word": "scarf", "code": ":scarf:"},
-  {"word": "socks", "code": ":socks:"},
-  {"word": "broom", "code": ":broom:"},
-  {"word": "chair", "code": ":chair:"},
-  {"word": "razor", "code": ":razor:"},
-  {"word": "banjo", "code": ":banjo:"},
-  {"word": "hamsa", "code": ":hamsa:"},
-  {"word": "lotus", "code": ":lotus:"},
-  {"word": "coral", "code": ":coral:"},
-  {"word": "lungs", "code": ":lungs:"},
-  {"word": "olive", "code": ":olive:"},
-  {"word": "beans", "code": ":beans:"},
-  {"word": "watch", "code": ":watch:"},
-  {"word": "eject", "code": ":eject:"},
-  {"word": "sunny", "code": ":sunny:"},
-  {"word": "cloud", "code": ":cloud:"},
-  {"word": "comet", "code": ":comet:"},
-  {"word": "phone", "code": ":phone:"},
-  {"word": "aries", "code": ":aries:"},
-  {"word": "virgo", "code": ":virgo:"},
-  {"word": "libra", "code": ":libra:"},
-  {"word": "clubs", "code": ":clubs:"},
-  {"word": "ferry", "code": ":ferry:"},
-  {"word": "skier", "code": ":skier:"},
-  {"word": "email", "code": ":email:"},
-  {"word": "heart", "code": ":heart:"},
-  {"word": "neigh", "code": ":horse:"},
-  {"word": "plebs", "code": ":man-woman-girl-boy:"},
-  {"word": "hover", "code": ":hovercraft:"},
-  {"word": "mater", "code": ":tomato:"},
-  {"word": "gamer", "code": ":video_game:"},
-  {"word": "chore", "code": ":broom:"},
-  {"word": "money", "code": ":moneybag:"},
-  {"word": "never", "code": ":no_entry_sign:"},
-  {"word": "bravo", "code": ":clap:"},
-  {"word": "viral", "code": ":biohazard_sign:"},
-  {"word": "draft", "code": ":writing_hand:"},
-  {"word": "photo", "code": ":camera:"},
-  {"word": "shore", "code": ":desert_island:"},
-  {"word": "honey", "code": ":honey_pot:"},
-  {"word": "album", "code": ":record:"},
-  {"word": "lunar", "code": ":moon:"},
-  {"word": "space", "code": ":rocket:"},
-  {"word": "daily", "code": ":calendar:"},
-  {"word": "aroma", "code": ":nose:"},
-  {"word": "wooly", "code": ":sheep:"},
-  {"word": "steak", "code": ":cut_of_meat:"},
-  {"word": "valor", "code": ":medal:"},
-  {"word": "splat", "code": ":tomato-splat:"},
-  {"word": "broke", "code": ":broken-heart:"},
-  {"word": "couch", "code": ":couch-and-lamp:"},
-  {"word": "vouch", "code": ":ballot_box_with_check:"},
-  {"word": "copse", "code": ":deciduous_tree:"},
-  {"word": "roach", "code": ":cockroach:"},
-  {"word": "mooch", "code": ":cat:"},
-  {"word": "drone", "code": ":small_airplane:"},
-  {"word": "wafer", "code": ":cookie:"},
-  {"word": "catch", "code": ":fishing_pole_and_fish:"},
-  {"word": "gamut", "code": ":rainbow:"},
-  {"word": "shine", "code": ":sun_with_face:"},
-  {"word": "feast", "code": ":bento:"},
-  {"word": "asset", "code": ":chart_with_upwards_trend:"},
-  {"word": "cruft", "code": ":floppy_disk:"},
-  {"word": "sabot", "code": ":shoe:"},
-  {"word": "stare", "code": ":eyes:"},
-  {"word": "panda", "code": ":panda_face:"},
-  {"word": "panty", "code": ":briefs:"},
-  {"word": "parch", "code": ":desert:"},
-  {"word": "bushy", "code": ":deciduous_tree:"},
-  {"word": "tiara", "code": ":princess:"},
-  {"word": "march", "code": ":hiking_boot:"},
-  {"word": "manor", "code": ":house:"},
-  {"word": "noise", "code": ":loud_sound:"},
-  {"word": "groin", "code": ":football:"},
-  {"word": "round", "code": ":large_yellow_circle:"},
-  {"word": "dream", "code": ":zzz:"},
-  {"word": "freak", "code": ":scream:"}, 
-  {"word": "creak", "code": ":door:"},
-  {"word": "reads", "code": ":book:"},
-  {"word": "cards", "code": ":black_joker:"},
-  {"word": "ethyl", "code": ":tumbler_glass:"},
-  {"word": "beach", "code": ":beach_with_umbrella:"},
-  {"word": "sandy", "code": ":beach_with_umbrella:"},
-  {"word": "showy", "code": ":dancers:"},
-  {"word": "shock", "code": ":zap:"},
-  {"word": "shown", "code": ":movie_camera:"},
-  {"word": "phase", "code": ":moon:"},
-  {"word": "sword", "code": ":crossed_swords:"},
-  {"word": "froth", "code": ":beers:"},
-  {"word": "forge", "code": ":fire:"},
-  {"word": "grade", "code": ":teacher:"},
-  {"word": "reign", "code": ":crown:"},
-  {"word": "grace", "code": ":dancer:"},
-  {"word": "graze", "code": ":cow:"},
-  {"word": "depth", "code": ":hole:"},
-  {"word": "grope", "code": ":hand:"},
-  {"word": "buxom", "code": ":woman-with-bunny-ears-partying:"},
-  {"word": "tipsy", "code": ":cocktail:"},
-  {"word": "boron", "code": ":test_tube:"},
-  {"word": "flora", "code": ":tulip:"},
-  {"word": "gloom", "code": ":mushroom-cloud:"},
-  {"word": "flood", "code": ":ocean:"},
-  {"word": "trait", "code": ":dna:"},
-  {"word": "torch", "code": ":fire:"},
-  {"word": "intro", "code": ":drum_with_drumsticks:"},
-  {"word": "stair", "code": ":signal_strength:"},
-  {"word": "right", "code": ":arrow_right:"},
-  {"word": "drive", "code": ":racing_car:"},
-  {"word": "preen", "code": ":bird:"},
-  {"word": "piety", "code": ":church:"},
-  {"word": "dowry", "code": ":bride_with_veil:"},
-  {"word": "donor", "code": ":drop_of_blood:"},
-  {"word": "tamer", "code": ":lion_face:"},
-  {"word": "death", "code": ":skull_and_crossbones:"},
-  {"word": "atone", "code": ":male_genie:"},
-  {"word": "girth", "code": ":weight_lifter:"},
-  {"word": "pricy", "code": ":heavy_dollar_sign:"},
-  {"word": "primp", "code": ":haircut:"},
-  {"word": "primo", "code": ":ok_hand:"}
+  {
+    "word": "piton",
+    "code": ":person_climbing:"
+  },
+  {
+    "word": "pinto",
+    "code": ":car:"
+  },
+  {
+    "word": "magic",
+    "code": ":magic_wand:"
+  },
+  {
+    "word": "gazon",
+    "code": ":shrug:"
+  },
+  {
+    "word": "laugh",
+    "code": ":laughing:"
+  },
+  {
+    "word": "troll",
+    "code": ":dungleon-troll:"
+  },
+  {
+    "word": "droll",
+    "code": ":expressionless:"
+  },
+  {
+    "word": "retch",
+    "code": ":face_vomiting:"
+  },
+  {
+    "word": "rebut",
+    "code": ":nerd_face:"
+  },
+  {
+    "word": "riled",
+    "code": ":angry:"
+  },
+  {
+    "word": "flack",
+    "code": ":face_with_symbols_on_mouth:"
+  },
+  {
+    "word": "hoist",
+    "code": ":weight_lifter:"
+  },
+  {
+    "word": "trope",
+    "code": ":tv:"
+  },
+  {
+    "word": "feint",
+    "code": ":fencer:"
+  },
+  {
+    "word": "retro",
+    "code": ":rocket:"
+  },
+  {
+    "word": "shout",
+    "code": ":open_mouth:"
+  },
+  {
+    "word": "rusty",
+    "code": ":aries:"
+  },
+  {
+    "word": "beady",
+    "code": ":no_mouth:"
+  },
+  {
+    "word": "share",
+    "code": ":people_holding_hands:"
+  },
+  {
+    "word": "smite",
+    "code": ":raised_back_of_hand:"
+  },
+  {
+    "word": "stole",
+    "code": ":hamburglar:"
+  },
+  {
+    "word": "bound",
+    "code": ":knot:"
+  },
+  {
+    "word": "briny",
+    "code": ":shrimp:"
+  },
+  {
+    "word": "bring",
+    "code": ":guide_dog:"
+  },
+  {
+    "word": "brink",
+    "code": ":hole:"
+  },
+  {
+    "word": "latch",
+    "code": ":briefcase:"
+  },
+  {
+    "word": "frail",
+    "code": ":older_adult:"
+  },
+  {
+    "word": "awful",
+    "code": ":face_vomiting:"
+  },
+  {
+    "word": "flock",
+    "code": ":bird:"
+  },
+  {
+    "word": "glory",
+    "code": ":flag-us:"
+  },
+  {
+    "word": "glout",
+    "code": ":white_frowning_face:"
+  },
+  {
+    "word": "gloat",
+    "code": ":sunglasses:"
+  },
+  {
+    "word": "shelf",
+    "code": ":goal_net:"
+  },
+  {
+    "word": "lease",
+    "code": ":page_with_curl:"
+  },
+  {
+    "word": "loser",
+    "code": ":sob:"
+  },
+  {
+    "word": "gauch",
+    "code": ":money_mouth_face:"
+  },
+  {
+    "word": "canny",
+    "code": ":canned_food:"
+  },
+  {
+    "word": "cacao",
+    "code": ":chocolate_bar:"
+  },
+  {
+    "word": "fight",
+    "code": ":punch:"
+  },
+  {
+    "word": "cloak",
+    "code": ":supervillain:"
+  },
+  {
+    "word": "bosom",
+    "code": ":coconut:"
+  },
+  {
+    "word": "omega",
+    "code": ":libra:"
+  },
+  {
+    "word": "drank",
+    "code": ":mate_drink:"
+  },
+  {
+    "word": "minus",
+    "code": ":heavy_minus_sign:"
+  },
+  {
+    "word": "novel",
+    "code": ":orange_book:"
+  },
+  {
+    "word": "pylon",
+    "code": ":no_entry:"
+  },
+  {
+    "word": "clown",
+    "code": ":clown_face:"
+  },
+  {
+    "word": "stoic",
+    "code": ":moyai:"
+  },
+  {
+    "word": "drown",
+    "code": ":ocean:"
+  },
+  {
+    "word": "blind",
+    "code": ":woman_with_probing_cane:"
+  },
+  {
+    "word": "black",
+    "code": ":black_large_square:"
+  },
+  {
+    "word": "blown",
+    "code": ":exploding_head:"
+  },
+  {
+    "word": "happy",
+    "code": ":smile:"
+  },
+  {
+    "word": "apart",
+    "code": ":left_right_arrow:"
+  },
+  {
+    "word": "apron",
+    "code": ":cook:"
+  },
+  {
+    "word": "baron",
+    "code": ":face_with_monocle:"
+  },
+  {
+    "word": "guilt",
+    "code": ":smiley_cat:"
+  },
+  {
+    "word": "heron",
+    "code": ":bird:"
+  },
+  {
+    "word": "fount",
+    "code": ":fountain:"
+  },
+  {
+    "word": "moron",
+    "code": ":woozy_face:"
+  },
+  {
+    "word": "teach",
+    "code": ":teacher:"
+  },
+  {
+    "word": "vaute",
+    "code": ":bank:"
+  },
+  {
+    "word": "bidet",
+    "code": ":toilet:"
+  },
+  {
+    "word": "heart",
+    "code": ":anatomical_heart:"
+  },
+  {
+    "word": "round",
+    "code": ":o:"
+  },
+  {
+    "word": "growl",
+    "code": ":wolf:"
+  },
+  {
+    "word": "prior",
+    "code": ":black_left_pointing_double_triangle_with_vertical_bar:"
+  },
+  {
+    "word": "stung",
+    "code": ":bee:"
+  },
+  {
+    "word": "dream",
+    "code": ":sleeping:"
+  },
+  {
+    "word": "crimp",
+    "code": ":aquarius:"
+  },
+  {
+    "word": "paint",
+    "code": ":lower_left_paintbrush:"
+  },
+  {
+    "word": "three",
+    "code": ":three:"
+  },
+  {
+    "word": "seven",
+    "code": ":seven:"
+  },
+  {
+    "word": "eight",
+    "code": ":eight:"
+  },
+  {
+    "word": "foggy",
+    "code": ":foggy:"
+  },
+  {
+    "word": "ocean",
+    "code": ":ocean:"
+  },
+  {
+    "word": "stars",
+    "code": ":stars:"
+  },
+  {
+    "word": "tulip",
+    "code": ":tulip:"
+  },
+  {
+    "word": "melon",
+    "code": ":melon:"
+  },
+  {
+    "word": "lemon",
+    "code": ":lemon:"
+  },
+  {
+    "word": "apple",
+    "code": ":apple:"
+  },
+  {
+    "word": "peach",
+    "code": ":peach:"
+  },
+  {
+    "word": "pizza",
+    "code": ":pizza:"
+  },
+  {
+    "word": "curry",
+    "code": ":curry:"
+  },
+  {
+    "word": "ramen",
+    "code": ":ramen:"
+  },
+  {
+    "word": "bread",
+    "code": ":bread:"
+  },
+  {
+    "word": "fries",
+    "code": ":fries:"
+  },
+  {
+    "word": "dango",
+    "code": ":dango:"
+  },
+  {
+    "word": "sushi",
+    "code": ":sushi:"
+  },
+  {
+    "word": "candy",
+    "code": ":candy:"
+  },
+  {
+    "word": "bento",
+    "code": ":bento:"
+  },
+  {
+    "word": "beers",
+    "code": ":beers:"
+  },
+  {
+    "word": "santa",
+    "code": ":santa:"
+  },
+  {
+    "word": "dolls",
+    "code": ":dolls:"
+  },
+  {
+    "word": "flags",
+    "code": ":flags:"
+  },
+  {
+    "word": "medal",
+    "code": ":medal:"
+  },
+  {
+    "word": "notes",
+    "code": ":notes:"
+  },
+  {
+    "word": "house",
+    "code": ":house:"
+  },
+  {
+    "word": "hotel",
+    "code": ":hotel:"
+  },
+  {
+    "word": "label",
+    "code": ":label:"
+  },
+  {
+    "word": "snail",
+    "code": ":snail:"
+  },
+  {
+    "word": "snake",
+    "code": ":snake:"
+  },
+  {
+    "word": "sheep",
+    "code": ":sheep:"
+  },
+  {
+    "word": "shell",
+    "code": ":shell:"
+  },
+  {
+    "word": "koala",
+    "code": ":koala:"
+  },
+  {
+    "word": "camel",
+    "code": ":camel:"
+  },
+  {
+    "word": "mouse",
+    "code": ":mouse:"
+  },
+  {
+    "word": "tiger",
+    "code": ":tiger:"
+  },
+  {
+    "word": "whale",
+    "code": ":whale:"
+  },
+  {
+    "word": "horse",
+    "code": ":horse:"
+  },
+  {
+    "word": "punch",
+    "code": ":punch:"
+  },
+  {
+    "word": "crown",
+    "code": ":crown:"
+  },
+  {
+    "word": "shirt",
+    "code": ":shirt:"
+  },
+  {
+    "word": "jeans",
+    "code": ":jeans:"
+  },
+  {
+    "word": "dress",
+    "code": ":dress:"
+  },
+  {
+    "word": "purse",
+    "code": ":purse:"
+  },
+  {
+    "word": "pouch",
+    "code": ":pouch:"
+  },
+  {
+    "word": "woman",
+    "code": ":woman:"
+  },
+  {
+    "word": "ghost",
+    "code": ":ghost:"
+  },
+  {
+    "word": "angel",
+    "code": ":angel:"
+  },
+  {
+    "word": "alien",
+    "code": ":alien:"
+  },
+  {
+    "word": "skull",
+    "code": ":skull:"
+  },
+  {
+    "word": "cupid",
+    "code": ":cupid:"
+  },
+  {
+    "word": "anger",
+    "code": ":anger:"
+  },
+  {
+    "word": "dizzy",
+    "code": ":dizzy:"
+  },
+  {
+    "word": "pound",
+    "code": ":pound:"
+  },
+  {
+    "word": "chart",
+    "code": ":chart:"
+  },
+  {
+    "word": "books",
+    "code": ":books:"
+  },
+  {
+    "word": "pager",
+    "code": ":pager:"
+  },
+  {
+    "word": "radio",
+    "code": ":radio:"
+  },
+  {
+    "word": "sound",
+    "code": ":sound:"
+  },
+  {
+    "word": "hocho",
+    "code": ":hocho:"
+  },
+  {
+    "word": "knife",
+    "code": ":knife:"
+  },
+  {
+    "word": "kaaba",
+    "code": ":kaaba:"
+  },
+  {
+    "word": "japan",
+    "code": ":japan:"
+  },
+  {
+    "word": "moyai",
+    "code": ":moyai:"
+  },
+  {
+    "word": "smile",
+    "code": ":smile:"
+  },
+  {
+    "word": "blush",
+    "code": ":blush:"
+  },
+  {
+    "word": "smirk",
+    "code": ":smirk:"
+  },
+  {
+    "word": "sweat",
+    "code": ":sweat:"
+  },
+  {
+    "word": "angry",
+    "code": ":angry:"
+  },
+  {
+    "word": "weary",
+    "code": ":weary:"
+  },
+  {
+    "word": "metro",
+    "code": ":metro:"
+  },
+  {
+    "word": "train",
+    "code": ":train:"
+  },
+  {
+    "word": "truck",
+    "code": ":truck:"
+  },
+  {
+    "word": "wheel",
+    "code": ":wheel:"
+  },
+  {
+    "word": "canoe",
+    "code": ":canoe:"
+  },
+  {
+    "word": "shrug",
+    "code": ":shrug:"
+  },
+  {
+    "word": "spoon",
+    "code": ":spoon:"
+  },
+  {
+    "word": "bacon",
+    "code": ":bacon:"
+  },
+  {
+    "word": "mango",
+    "code": ":mango:"
+  },
+  {
+    "word": "bagel",
+    "code": ":bagel:"
+  },
+  {
+    "word": "ninja",
+    "code": ":ninja:"
+  },
+  {
+    "word": "eagle",
+    "code": ":eagle:"
+  },
+  {
+    "word": "shark",
+    "code": ":shark:"
+  },
+  {
+    "word": "squid",
+    "code": ":squid:"
+  },
+  {
+    "word": "llama",
+    "code": ":llama:"
+  },
+  {
+    "word": "sloth",
+    "code": ":sloth:"
+  },
+  {
+    "word": "otter",
+    "code": ":otter:"
+  },
+  {
+    "word": "skunk",
+    "code": ":skunk:"
+  },
+  {
+    "word": "bison",
+    "code": ":bison:"
+  },
+  {
+    "word": "tooth",
+    "code": ":tooth:"
+  },
+  {
+    "word": "onion",
+    "code": ":onion:"
+  },
+  {
+    "word": "troll",
+    "code": ":troll:"
+  },
+  {
+    "word": "judge",
+    "code": ":judge:"
+  },
+  {
+    "word": "pilot",
+    "code": ":pilot:"
+  },
+  {
+    "word": "adult",
+    "code": ":adult:"
+  },
+  {
+    "word": "child",
+    "code": ":child:"
+  },
+  {
+    "word": "fairy",
+    "code": ":fairy:"
+  },
+  {
+    "word": "genie",
+    "code": ":genie:"
+  },
+  {
+    "word": "brain",
+    "code": ":brain:"
+  },
+  {
+    "word": "scarf",
+    "code": ":scarf:"
+  },
+  {
+    "word": "socks",
+    "code": ":socks:"
+  },
+  {
+    "word": "broom",
+    "code": ":broom:"
+  },
+  {
+    "word": "chair",
+    "code": ":chair:"
+  },
+  {
+    "word": "razor",
+    "code": ":razor:"
+  },
+  {
+    "word": "banjo",
+    "code": ":banjo:"
+  },
+  {
+    "word": "hamsa",
+    "code": ":hamsa:"
+  },
+  {
+    "word": "lotus",
+    "code": ":lotus:"
+  },
+  {
+    "word": "coral",
+    "code": ":coral:"
+  },
+  {
+    "word": "lungs",
+    "code": ":lungs:"
+  },
+  {
+    "word": "olive",
+    "code": ":olive:"
+  },
+  {
+    "word": "beans",
+    "code": ":beans:"
+  },
+  {
+    "word": "watch",
+    "code": ":watch:"
+  },
+  {
+    "word": "eject",
+    "code": ":eject:"
+  },
+  {
+    "word": "sunny",
+    "code": ":sunny:"
+  },
+  {
+    "word": "cloud",
+    "code": ":cloud:"
+  },
+  {
+    "word": "comet",
+    "code": ":comet:"
+  },
+  {
+    "word": "phone",
+    "code": ":phone:"
+  },
+  {
+    "word": "aries",
+    "code": ":aries:"
+  },
+  {
+    "word": "virgo",
+    "code": ":virgo:"
+  },
+  {
+    "word": "libra",
+    "code": ":libra:"
+  },
+  {
+    "word": "clubs",
+    "code": ":clubs:"
+  },
+  {
+    "word": "ferry",
+    "code": ":ferry:"
+  },
+  {
+    "word": "skier",
+    "code": ":skier:"
+  },
+  {
+    "word": "email",
+    "code": ":email:"
+  },
+  {
+    "word": "heart",
+    "code": ":heart:"
+  },
+  {
+    "word": "neigh",
+    "code": ":horse:"
+  },
+  {
+    "word": "plebs",
+    "code": ":man-woman-girl-boy:"
+  },
+  {
+    "word": "hover",
+    "code": ":hovercraft:"
+  },
+  {
+    "word": "mater",
+    "code": ":tomato:"
+  },
+  {
+    "word": "gamer",
+    "code": ":video_game:"
+  },
+  {
+    "word": "chore",
+    "code": ":broom:"
+  },
+  {
+    "word": "money",
+    "code": ":moneybag:"
+  },
+  {
+    "word": "never",
+    "code": ":no_entry_sign:"
+  },
+  {
+    "word": "bravo",
+    "code": ":clap:"
+  },
+  {
+    "word": "viral",
+    "code": ":biohazard_sign:"
+  },
+  {
+    "word": "draft",
+    "code": ":writing_hand:"
+  },
+  {
+    "word": "photo",
+    "code": ":camera:"
+  },
+  {
+    "word": "shore",
+    "code": ":desert_island:"
+  },
+  {
+    "word": "honey",
+    "code": ":honey_pot:"
+  },
+  {
+    "word": "album",
+    "code": ":record:"
+  },
+  {
+    "word": "lunar",
+    "code": ":moon:"
+  },
+  {
+    "word": "space",
+    "code": ":rocket:"
+  },
+  {
+    "word": "daily",
+    "code": ":calendar:"
+  },
+  {
+    "word": "aroma",
+    "code": ":nose:"
+  },
+  {
+    "word": "wooly",
+    "code": ":sheep:"
+  },
+  {
+    "word": "steak",
+    "code": ":cut_of_meat:"
+  },
+  {
+    "word": "valor",
+    "code": ":medal:"
+  },
+  {
+    "word": "splat",
+    "code": ":tomato-splat:"
+  },
+  {
+    "word": "broke",
+    "code": ":broken-heart:"
+  },
+  {
+    "word": "couch",
+    "code": ":couch-and-lamp:"
+  },
+  {
+    "word": "vouch",
+    "code": ":ballot_box_with_check:"
+  },
+  {
+    "word": "copse",
+    "code": ":deciduous_tree:"
+  },
+  {
+    "word": "roach",
+    "code": ":cockroach:"
+  },
+  {
+    "word": "mooch",
+    "code": ":cat:"
+  },
+  {
+    "word": "drone",
+    "code": ":small_airplane:"
+  },
+  {
+    "word": "wafer",
+    "code": ":cookie:"
+  },
+  {
+    "word": "catch",
+    "code": ":fishing_pole_and_fish:"
+  },
+  {
+    "word": "gamut",
+    "code": ":rainbow:"
+  },
+  {
+    "word": "shine",
+    "code": ":sun_with_face:"
+  },
+  {
+    "word": "feast",
+    "code": ":bento:"
+  },
+  {
+    "word": "asset",
+    "code": ":chart_with_upwards_trend:"
+  },
+  {
+    "word": "cruft",
+    "code": ":floppy_disk:"
+  },
+  {
+    "word": "sabot",
+    "code": ":shoe:"
+  },
+  {
+    "word": "stare",
+    "code": ":eyes:"
+  },
+  {
+    "word": "panda",
+    "code": ":panda_face:"
+  },
+  {
+    "word": "panty",
+    "code": ":briefs:"
+  },
+  {
+    "word": "parch",
+    "code": ":desert:"
+  },
+  {
+    "word": "bushy",
+    "code": ":deciduous_tree:"
+  },
+  {
+    "word": "tiara",
+    "code": ":princess:"
+  },
+  {
+    "word": "march",
+    "code": ":hiking_boot:"
+  },
+  {
+    "word": "manor",
+    "code": ":house:"
+  },
+  {
+    "word": "noise",
+    "code": ":loud_sound:"
+  },
+  {
+    "word": "groin",
+    "code": ":football:"
+  },
+  {
+    "word": "round",
+    "code": ":large_yellow_circle:"
+  },
+  {
+    "word": "dream",
+    "code": ":zzz:"
+  },
+  {
+    "word": "freak",
+    "code": ":scream:"
+  },
+  {
+    "word": "creak",
+    "code": ":door:"
+  },
+  {
+    "word": "reads",
+    "code": ":book:"
+  },
+  {
+    "word": "cards",
+    "code": ":black_joker:"
+  },
+  {
+    "word": "ethyl",
+    "code": ":tumbler_glass:"
+  },
+  {
+    "word": "beach",
+    "code": ":beach_with_umbrella:"
+  },
+  {
+    "word": "sandy",
+    "code": ":beach_with_umbrella:"
+  },
+  {
+    "word": "showy",
+    "code": ":dancers:"
+  },
+  {
+    "word": "shock",
+    "code": ":zap:"
+  },
+  {
+    "word": "shown",
+    "code": ":movie_camera:"
+  },
+  {
+    "word": "phase",
+    "code": ":moon:"
+  },
+  {
+    "word": "sword",
+    "code": ":crossed_swords:"
+  },
+  {
+    "word": "froth",
+    "code": ":beers:"
+  },
+  {
+    "word": "forge",
+    "code": ":fire:"
+  },
+  {
+    "word": "grade",
+    "code": ":teacher:"
+  },
+  {
+    "word": "reign",
+    "code": ":crown:"
+  },
+  {
+    "word": "grace",
+    "code": ":dancer:"
+  },
+  {
+    "word": "graze",
+    "code": ":cow:"
+  },
+  {
+    "word": "depth",
+    "code": ":hole:"
+  },
+  {
+    "word": "grope",
+    "code": ":hand:"
+  },
+  {
+    "word": "buxom",
+    "code": ":woman-with-bunny-ears-partying:"
+  },
+  {
+    "word": "tipsy",
+    "code": ":cocktail:"
+  },
+  {
+    "word": "boron",
+    "code": ":test_tube:"
+  },
+  {
+    "word": "flora",
+    "code": ":tulip:"
+  },
+  {
+    "word": "gloom",
+    "code": ":mushroom-cloud:"
+  },
+  {
+    "word": "flood",
+    "code": ":ocean:"
+  },
+  {
+    "word": "trait",
+    "code": ":dna:"
+  },
+  {
+    "word": "torch",
+    "code": ":fire:"
+  },
+  {
+    "word": "intro",
+    "code": ":drum_with_drumsticks:"
+  },
+  {
+    "word": "stair",
+    "code": ":signal_strength:"
+  },
+  {
+    "word": "right",
+    "code": ":arrow_right:"
+  },
+  {
+    "word": "drive",
+    "code": ":racing_car:"
+  },
+  {
+    "word": "preen",
+    "code": ":bird:"
+  },
+  {
+    "word": "piety",
+    "code": ":church:"
+  },
+  {
+    "word": "dowry",
+    "code": ":bride_with_veil:"
+  },
+  {
+    "word": "donor",
+    "code": ":drop_of_blood:"
+  },
+  {
+    "word": "tamer",
+    "code": ":lion_face:"
+  },
+  {
+    "word": "death",
+    "code": ":skull_and_crossbones:"
+  },
+  {
+    "word": "atone",
+    "code": ":male_genie:"
+  },
+  {
+    "word": "girth",
+    "code": ":weight_lifter:"
+  },
+  {
+    "word": "pricy",
+    "code": ":heavy_dollar_sign:"
+  },
+  {
+    "word": "primp",
+    "code": ":haircut:"
+  },
+  {
+    "word": "primo",
+    "code": ":ok_hand:"
+  }
 ]
