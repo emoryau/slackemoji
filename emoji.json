@@ -1,5 +1,37 @@
 [
   {
+    "word": "stern",
+    "code": ":boat:"
+  },
+  {
+    "word": "serum",
+    "code": ":test_tube:"
+  },
+  {
+    "word": "sewer",
+    "code": ":plunger:"
+  },
+  {
+    "word": "sever",
+    "code": ":knife:"
+  },
+  {
+    "word": "groat",
+    "code": ":coin:"
+  },
+  {
+    "word": "stare",
+    "code": ":eyes:"
+  },
+  {
+    "word": "voter",
+    "code": ":ballot_box_with_check:"
+  },
+  {
+    "word": "greet",
+    "code": ":wave:"
+  },
+  {
     "word": "trode",
     "code": ":walking:"
   },

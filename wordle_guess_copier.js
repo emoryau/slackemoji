@@ -150,6 +150,14 @@ function extractWordleRow_2(letterElements) {
     return result;
 }
 
+function getWordleGameNumber() {
+    try {
+        return JSON.parse(window.localStorage.getItem('nyt-wordle-moogle/ANON')).game.dayOffset;
+    } catch {
+        return '';
+    }
+}
+
 let extractWordle2Guesses = function (event) {
     const gameRows = $('[class^="Row-module_row"]');
 
@@ -181,7 +189,7 @@ let extractWordle2Guesses = function (event) {
 
     });
 
-    guessData.clipboardText = 'Wordle ' + getSlackNumber(rowCount, 6) + '/6* \x0D' + clipboardText;
+    guessData.clipboardText = 'Wordle ' + getWordleGameNumber() + ' ' + getSlackNumber(rowCount, 6) + '/6* \x0D' + clipboardText;
 
     return guessData;
 }
