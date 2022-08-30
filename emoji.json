@@ -1,16 +1,52 @@
 [
-  {"word":"unhat","code":":mortar_board:"},
-{"word":"aught","code":":nothing:"},
-{"word":"spewy","code":":face_vomiting:"},
-{"word":"speck","code":":mag:"},
-
-  {"word":"gauge","code":":thermometer:"},
-{"word":"gauze","code":":face_with_head_bandage:"},
-
-  {"word":"coder","code":":technologist:"},
-{"word":"udder","code":":cow:"},
-{"word":"ruder","code":":angry:"},
-
+  {
+    "word": "onset",
+    "code": ":mask:"
+  },
+  {
+    "word": "unfed",
+    "code": ":knife_fork_plate:"
+  },
+  {
+    "word": "chief",
+    "code": ":cop:"
+  },
+  {
+    "word": "unhat",
+    "code": ":mortar_board:"
+  },
+  {
+    "word": "aught",
+    "code": ":nothing:"
+  },
+  {
+    "word": "spewy",
+    "code": ":face_vomiting:"
+  },
+  {
+    "word": "speck",
+    "code": ":mag:"
+  },
+  {
+    "word": "gauge",
+    "code": ":thermometer:"
+  },
+  {
+    "word": "gauze",
+    "code": ":face_with_head_bandage:"
+  },
+  {
+    "word": "coder",
+    "code": ":technologist:"
+  },
+  {
+    "word": "udder",
+    "code": ":cow:"
+  },
+  {
+    "word": "ruder",
+    "code": ":angry:"
+  },
   {
     "word": "joint",
     "code": ":leg:"
