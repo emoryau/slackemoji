@@ -1,11 +1,36 @@
 [
-  {"word":"shaft","code":":probing_cane:"},
-{"word":"stony","code":":rock:"},
-{"word":"strum","code":":guitar:"},
-{"word":"stick","code":":dusty_stick:"},
-
-  {"word":"chute","code":":parachute:"},
-
+  {
+    "word": "crate",
+    "code": ":package:"
+  },
+  {
+    "word": "truce",
+    "code": ":handshake:"
+  },
+  {
+    "word": "trice",
+    "code": ":dash:"
+  },
+  {
+    "word": "shaft",
+    "code": ":probing_cane:"
+  },
+  {
+    "word": "stony",
+    "code": ":rock:"
+  },
+  {
+    "word": "strum",
+    "code": ":guitar:"
+  },
+  {
+    "word": "stick",
+    "code": ":dusty_stick:"
+  },
+  {
+    "word": "chute",
+    "code": ":parachute:"
+  },
   {
     "word": "paver",
     "code": ":motorway:"
