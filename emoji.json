@@ -1,5 +1,17 @@
 [
   {
+    "word": "drape",
+    "code": ":window:"
+  },
+  {
+    "word": "remap",
+    "code": ":world_map:"
+  },
+  {
+    "word": "recap",
+    "code": ":repeat:"
+  },
+  {
     "word": "clone",
     "code": ":busts_in_silhouette:"
   },
