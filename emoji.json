@@ -1,10 +1,28 @@
 [
-  {"word":"tuner","code":":radio:"},
-
-  {"word":"newly","code":":new:"},
-{"word":"level","code":":toolbox:"},
-{"word":"leave","code":":door:"},
-
+  {
+    "word": "stain",
+    "code": ":tomato-splat:"
+  },
+  {
+    "word": "sting",
+    "code": ":bee:"
+  },
+  {
+    "word": "tuner",
+    "code": ":radio:"
+  },
+  {
+    "word": "newly",
+    "code": ":new:"
+  },
+  {
+    "word": "level",
+    "code": ":toolbox:"
+  },
+  {
+    "word": "leave",
+    "code": ":door:"
+  },
   {
     "word": "sucky",
     "code": ":vacuum:"
