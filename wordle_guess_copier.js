@@ -201,15 +201,46 @@ function detectWordleVersion() {
         return 'wordle.1';
     }
     const version2 = $('[class^="Row-module_row"]');
-    if (version2) {
+    if (version2.length > 0) {
+        console.log('--- --- wordle2 --- ---');
         return 'wordle.2';
     }
+
+    // No match, might need to wait for a splash screen to clear before we can detect & attach
+    var target = document.querySelector('body')
+
+    // Create an observer instance.
+    var observer = new MutationObserver(function(mutations) {
+        const version2 = $('[class^="Row-module_row"]');
+        if (version2.length > 0) {
+            console.log('--- --- wordle2 --- ---');
+
+            const gameSettings = GAME_DESCRIPTORS['wordle.2'];
+
+            console.debug('User Script detected ', gameSettings.game);
+
+            addButtonsToDocument(gameSettings);
+
+            // Done with observing, now that game has been detected and set up
+            observer.disconnect();
+        }
+    });
+
+    // Pass in the target node, as well as the observer options.
+    observer.observe(target, {
+        attributes:    true,
+        childList:     true,
+        characterData: true
+    });
+
+    // Return unknown to signal no game detected yet
+    return 'unknown.0';
 }
 
 
 /**
  * Detect Wordle DOM version, pull current guess row data, and copy what we can to the clipboard
- * 
+ *
  */
 let copyJSON = function(event) {
     let version = detectGame();
@@ -236,7 +267,7 @@ let copyResults = function(event) {
     let clipboardText = '';
 
     copyRichText(guessData.clipboardText);
-    
+
     event.stopImmediatePropagation();
 }
 
@@ -246,10 +277,14 @@ function addButtonsToDocument(gameDescriptor) {
 
     let buttonContainer = gameDescriptor.getButtonContainerFn();
 
-    buttonContainer.prepend(copyTag);
+    if (buttonContainer) {
+        buttonContainer.prepend(copyTag);
 
-    if (createGenerateJSONTag) {
-        buttonContainer.prepend(createGenerateJSONTag);
+        if (createGenerateJSONTag) {
+            buttonContainer.prepend(createGenerateJSONTag);
+        }
+    } else {
+        console.log('--- ___ --- COULD NOT GET BUTTON CONTAINER --- ___ ---');
     }
 }
 
@@ -639,6 +674,11 @@ function downloadEmoji(success, failure) {
 
 $(function() {
     const gameSettings = GAME_DESCRIPTORS[detectGame()];
+
+    if (gameSettings === undefined) {
+        console.debug('User Script did not detect game (yet)');
+        return;
+    }
 
     console.debug('User Script detected ', gameSettings.game);
 
