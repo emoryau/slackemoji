@@ -1,13 +1,40 @@
 [
-  {"word":"quick","code":":runner:"},
-{"word":"tumor","code":":weight_lifter:"},
-{"word":"gummy","code":":candy:"},
-{"word":"mummy","code":":pyramid:"},
-
-  {"word":"slope","code":":skier:"},
-{"word":"spell","code":":a:"},
-{"word":"spiel","code":":wine_glass:"},
-
+  {
+    "word": "talon",
+    "code": ":eagle:"
+  },
+  {
+    "word": "fault",
+    "code": ":earth_americas:"
+  },
+  {
+    "word": "quick",
+    "code": ":runner:"
+  },
+  {
+    "word": "tumor",
+    "code": ":weight_lifter:"
+  },
+  {
+    "word": "gummy",
+    "code": ":candy:"
+  },
+  {
+    "word": "mummy",
+    "code": ":pyramid:"
+  },
+  {
+    "word": "slope",
+    "code": ":skier:"
+  },
+  {
+    "word": "spell",
+    "code": ":a:"
+  },
+  {
+    "word": "spiel",
+    "code": ":wine_glass:"
+  },
   {
     "word": "meaty",
     "code": ":meat_on_bone:"
