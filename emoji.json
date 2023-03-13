@@ -1,6 +1,16 @@
 [
-  {"word":"learn","code":":teacher:"},
-
+  {
+    "word": "bloke",
+    "code": ":uk:"
+  },
+  {
+    "word": "blame",
+    "code": ":point_right:"
+  },
+  {
+    "word": "learn",
+    "code": ":teacher:"
+  },
   {
     "word": "revel",
     "code": ":partycat:"
