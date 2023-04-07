@@ -1,5 +1,25 @@
 [
   {
+    "word": "lands",
+    "code": ":world_map:"
+  },
+  {
+    "word": "lists",
+    "code": ":scroll:"
+  },
+  {
+    "word": "lochs",
+    "code": ":ocean:"
+  },
+  {
+    "word": "locks",
+    "code": ":lock:"
+  },
+  {
+    "word": "locus",
+    "code": ":chart_with_upwards_trend:"
+  },
+  {
     "word": "leary",
     "code": ":grimacing:"
   },
