@@ -1,6 +1,12 @@
 [
-  {"word":"bored","code":":hole:"},
-
+  {
+    "word": "ditto",
+    "code": ":pokeball:"
+  },
+  {
+    "word": "bored",
+    "code": ":hole:"
+  },
   {
     "word": "annoy",
     "code": ":expressionless:"
