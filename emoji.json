@@ -1,9 +1,24 @@
 [
-  {"word":"trick","code":":shrug:"},
-{"word":"cigar","code":":shrug:"},
-{"word":"acrid","code":":shrug:"},
-{"word":"plink","code":":clinking_glasses:"},
-
+  {
+    "word": "light",
+    "code": ":bulb:"
+  },
+  {
+    "word": "trick",
+    "code": ":magic_wand:"
+  },
+  {
+    "word": "cigar",
+    "code": ":smoking:"
+  },
+  {
+    "word": "acrid",
+    "code": ":skunk:"
+  },
+  {
+    "word": "plink",
+    "code": ":clinking_glasses:"
+  },
   {
     "word": "shart",
     "code": ":poop:"
