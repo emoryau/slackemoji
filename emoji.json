@@ -1,5 +1,13 @@
 [
   {
+    "word": "query",
+    "code": ":question:"
+  },
+  {
+    "word": "check",
+    "code": ":heavy_check_mark:"
+  },
+  {
     "word": "crowd",
     "code": ":stadium:"
   },
