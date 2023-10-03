@@ -1,5 +1,13 @@
 [
   {
+    "word": "equal",
+    "code": ":heavy_equals_sign:"
+  },
+  {
+    "word": "while",
+    "code": ":curly_loop:"
+  },
+  {
     "word": "chain",
     "code": ":chains:"
   },
