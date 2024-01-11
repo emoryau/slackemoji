@@ -1,11 +1,32 @@
 [
-  {"word":"quale","code":":shrug:"},
-{"word":"elven","code":":elf:"},
-  {"word":"canal","code":":man-rowing-boat:"},
-  {"word":"cable","code":":tv:"},
-  {"word":"lunge","code":":man_kneeling:"},
-  {"word":"shank","code":":knife:"},
-{"word":"scant","code":":pinching_hand:"},
+  {
+    "word": "quale",
+    "code": ":shrug:"
+  },
+  {
+    "word": "elven",
+    "code": ":elf:"
+  },
+  {
+    "word": "canal",
+    "code": ":man-rowing-boat:"
+  },
+  {
+    "word": "cable",
+    "code": ":tv:"
+  },
+  {
+    "word": "lunge",
+    "code": ":man_kneeling:"
+  },
+  {
+    "word": "shank",
+    "code": ":knife:"
+  },
+  {
+    "word": "scant",
+    "code": ":pinching_hand:"
+  },
   {
     "word": "doily",
     "code": ":knife_fork_plate:"
