@@ -1,128 +1,500 @@
 [
-  {"word":"overt","code":":zany_face:"},
-  {"word":"toner","code":":printer:"},
-{"word":"foyer","code":":house:"},
-  {"word":"easel","code":":art:"},
-{"word":"laser","code":":goggles:"},
-  {"word":"manly","code":":man:"},
-  {"word":"lurid","code":":nsfw:"},
-{"word":"lucid","code":":sleeping:"},
-  {"word":"those","code":":point_left:"},
-{"word":"rinse","code":":shower:"},
-{"word":"raise","code":":moneybag:"},
-  {"word":"rater","code":":teacher:"},
-{"word":"facet","code":":gem:"},
-  {"word":"tinge","code":":pinching_hand:"},
-{"word":"tithe","code":":church:"},
-  {"word":"tepid","code":":thermometer:"},
-{"word":"equip","code":":crossed_swords:"},
-  {"word":"bloop","code":":zany_face:"},
-{"word":"blimp","code":":balloon:"},
-  {"word":"steel","code":":crossed_swords:"},
-  {"word":"throw","code":":baseball:"},
-  {"word":"welsh","code":":uk:"},
-{"word":"louse","code":":bug:"},
-  {"word":"broad","code":":bridge_at_night:"},
-{"word":"brown","code":":large_brown_circle:"},
-{"word":"broth","code":":ramen:"},
-  {"word":"grime","code":":poop:"},
-{"word":"merge","code":":motorway:"},
-  {"word":"breed","code":":family:"},
-  {"word":"block","code":":large_blue_square:"},
-{"word":"climb","code":":person_climbing:"},
-  {"word":"plait","code":":knot:"},
-  {"word":"horny","code":":postal_horn:"},
-{"word":"frond","code":":palm_tree:"},
-  {"word":"orbit","code":":ringed_planet:"},
-{"word":"taboo","code":":face_with_finger_covering_closed_lips:"},
-  {"word":"force","code":":punch:"},
-  {"word":"realm","code":":european_castle:"},
-  {"word":"speak","code":":speech_balloon:"},
-  {"word":"gassy","code":":dash:"},
-  {"word":"mayor","code":":chicken:"},
-  {"word":"tamed","code":":lion_face:"},
-{"word":"dewar","code":":scientist:"},
-{"word":"decaf","code":":coffee:"},
-{"word":"decay","code":":zombie:"},
-  {"word":"shame","code":":disappointed:"},
-{"word":"shade","code":":deciduous_tree:"},
-  {"word":"linty","code":":dusty_stick:"},
-{"word":"linux","code":":desktop_computer:"},
-{"word":"linin","code":":microbe:"},
-{"word":"lingo","code":":book:"},
-  {"word":"above","code":":superhero:"},
-{"word":"abide","code":":tumbler_glass:"},
-  {"word":"spelt","code":":catan-grain:"},
-  {"word":"erupt","code":":volcano:"},
-  {"word":"stove","code":":cooking:"},
-{"word":"singe","code":":fire:"},
-{"word":"since","code":":calendar:"},
-{"word":"posed","code":":dancer:"},
-{"word":"pesky","code":":spider:"},
-  {"word":"grasp","code":":handshake:"},
-  {"word":"dealt","code":":black_joker:"},
-{"word":"early","code":":sunrise:"},
-  {"word":"teary","code":":crying_cat_face:"},
-  {"word":"mucho","code":":flag-es:"},
-{"word":"hunch","code":":thinking_face:"},
-  {"word":"ollie","code":":skateboard:"},
-{"word":"flame","code":":fire_engine:"},
-  {"word":"ruban","code":":ribbon:"},
-{"word":"urban","code":":cityscape:"},
-  {"word":"rhino","code":":rhinoceros:"},
-{"word":"armor","code":":military_helmet:"},
-{"word":"forty","code":":birthday:"},
-  {"word":"dirge","code":":coffin:"},
-{"word":"image","code":":camera:"},
-  {"word":"devil","code":":smiling_imp:"},
-  {"word":"snide","code":":smirk:"},
-{"word":"sense","code":":satellite_antenna:"},
-  {"word":"oaten","code":":catan-grain:"},
-{"word":"often","code":"::taco:"},
-  {"word":"smith","code":":hammer:"},
-  {"word":"pined","code":":evergreen_tree:"},
-{"word":"piper","code":":plunger:"},
-  {"word":"troop","code":":camping:"},
-  {"word":"meany","code":":face_with_symbols_on_mouth:"},
-{"word":"heavy","code":":bricks:"},
-  {"word":"bally","code":":gb:"},
-{"word":"built","code":":house:"},
-{"word":"build","code":":hammer:"},
-  {"word":"match","code":":tennis:"},
-  {"word":"palsy","code":":wheelchair:"},
-{"word":"psalm","code":":book:"},
-{"word":"stack","code":":pancakes:"},
-{"word":"staff","code":":dusty_stick:"},
-  {"word":"hussy","code":":women-with-bunny-ears-partying:"},
-{"word":"sonar","code":":loud_sound:"},
-  {"word":"pasty","code":":standing_person::skin-tone-2:"},
-{"word":"pasta","code":":spaghetti:"},
-  {"word":"stiff","code":":zombie:"},
-  {"word":"plume","code":":peacock:"},
-{"word":"plane","code":":small_airplane: "},
-  {"word":"fader","code":":level_slider:"},
-{"word":"after","code":":mantelpiece_clock:"},
-  {"word":"winch","code":":pickup_truck:"},
-{"word":"which","code":":left_right_arrow:"},
-{"word":"loupe","code":":face_with_monocle:"},
-{"word":"reply","code":":love_letter:"},
-{"word":"repel","code":":dusty_stick:"},
-  {"word":"cleve","code":":crossed_swords:"},
-{"word":"cleft","code":":knife:"},
-  {"word":"alone","code":":desert_island:"},
-  {"word":"tuple","code":":1234:"},
-{"word":"expel","code":":desert_island:"},
-  {"word":"lemur","code":":monkey:"},
-{"word":"ledge","code":":man_climbing:"},
-{"word":"leggy","code":":mechanical_leg:"},
-  {"word":"aloof","code":":smirk_cat:"},
-  {"word":"leant","code":":moneybag:"},
-{"word":"welch","code":":grapes:"},
-{"word":"relic","code":":dungleon-relic:"},
-  {"word":"swill","code":":sake:"},
-{"word":"still","code":":night_with_stars:"},
-  {"word":"tweed","code":":coat:"},
-{"word":"tweak","code":":wrench:"},
+  {
+    "word": "overt",
+    "code": ":zany_face:"
+  },
+  {
+    "word": "toner",
+    "code": ":printer:"
+  },
+  {
+    "word": "foyer",
+    "code": ":house:"
+  },
+  {
+    "word": "easel",
+    "code": ":art:"
+  },
+  {
+    "word": "laser",
+    "code": ":goggles:"
+  },
+  {
+    "word": "manly",
+    "code": ":man:"
+  },
+  {
+    "word": "lurid",
+    "code": ":nsfw:"
+  },
+  {
+    "word": "lucid",
+    "code": ":sleeping:"
+  },
+  {
+    "word": "those",
+    "code": ":point_left:"
+  },
+  {
+    "word": "rinse",
+    "code": ":shower:"
+  },
+  {
+    "word": "raise",
+    "code": ":moneybag:"
+  },
+  {
+    "word": "rater",
+    "code": ":teacher:"
+  },
+  {
+    "word": "facet",
+    "code": ":gem:"
+  },
+  {
+    "word": "tinge",
+    "code": ":pinching_hand:"
+  },
+  {
+    "word": "tithe",
+    "code": ":church:"
+  },
+  {
+    "word": "tepid",
+    "code": ":thermometer:"
+  },
+  {
+    "word": "equip",
+    "code": ":crossed_swords:"
+  },
+  {
+    "word": "bloop",
+    "code": ":zany_face:"
+  },
+  {
+    "word": "blimp",
+    "code": ":balloon:"
+  },
+  {
+    "word": "steel",
+    "code": ":crossed_swords:"
+  },
+  {
+    "word": "throw",
+    "code": ":baseball:"
+  },
+  {
+    "word": "welsh",
+    "code": ":uk:"
+  },
+  {
+    "word": "louse",
+    "code": ":bug:"
+  },
+  {
+    "word": "broad",
+    "code": ":bridge_at_night:"
+  },
+  {
+    "word": "brown",
+    "code": ":large_brown_circle:"
+  },
+  {
+    "word": "broth",
+    "code": ":ramen:"
+  },
+  {
+    "word": "grime",
+    "code": ":poop:"
+  },
+  {
+    "word": "merge",
+    "code": ":motorway:"
+  },
+  {
+    "word": "breed",
+    "code": ":family:"
+  },
+  {
+    "word": "block",
+    "code": ":large_blue_square:"
+  },
+  {
+    "word": "climb",
+    "code": ":person_climbing:"
+  },
+  {
+    "word": "plait",
+    "code": ":knot:"
+  },
+  {
+    "word": "horny",
+    "code": ":postal_horn:"
+  },
+  {
+    "word": "frond",
+    "code": ":palm_tree:"
+  },
+  {
+    "word": "orbit",
+    "code": ":ringed_planet:"
+  },
+  {
+    "word": "taboo",
+    "code": ":face_with_finger_covering_closed_lips:"
+  },
+  {
+    "word": "force",
+    "code": ":punch:"
+  },
+  {
+    "word": "realm",
+    "code": ":european_castle:"
+  },
+  {
+    "word": "speak",
+    "code": ":speech_balloon:"
+  },
+  {
+    "word": "gassy",
+    "code": ":dash:"
+  },
+  {
+    "word": "mayor",
+    "code": ":chicken:"
+  },
+  {
+    "word": "tamed",
+    "code": ":lion_face:"
+  },
+  {
+    "word": "dewar",
+    "code": ":scientist:"
+  },
+  {
+    "word": "decaf",
+    "code": ":coffee:"
+  },
+  {
+    "word": "decay",
+    "code": ":zombie:"
+  },
+  {
+    "word": "shame",
+    "code": ":disappointed:"
+  },
+  {
+    "word": "shade",
+    "code": ":deciduous_tree:"
+  },
+  {
+    "word": "linty",
+    "code": ":dusty_stick:"
+  },
+  {
+    "word": "linux",
+    "code": ":desktop_computer:"
+  },
+  {
+    "word": "linin",
+    "code": ":microbe:"
+  },
+  {
+    "word": "lingo",
+    "code": ":book:"
+  },
+  {
+    "word": "above",
+    "code": ":superhero:"
+  },
+  {
+    "word": "abide",
+    "code": ":tumbler_glass:"
+  },
+  {
+    "word": "spelt",
+    "code": ":catan-grain:"
+  },
+  {
+    "word": "erupt",
+    "code": ":volcano:"
+  },
+  {
+    "word": "stove",
+    "code": ":cooking:"
+  },
+  {
+    "word": "singe",
+    "code": ":fire:"
+  },
+  {
+    "word": "since",
+    "code": ":calendar:"
+  },
+  {
+    "word": "posed",
+    "code": ":dancer:"
+  },
+  {
+    "word": "pesky",
+    "code": ":spider:"
+  },
+  {
+    "word": "grasp",
+    "code": ":handshake:"
+  },
+  {
+    "word": "dealt",
+    "code": ":black_joker:"
+  },
+  {
+    "word": "early",
+    "code": ":sunrise:"
+  },
+  {
+    "word": "teary",
+    "code": ":crying_cat_face:"
+  },
+  {
+    "word": "mucho",
+    "code": ":flag-es:"
+  },
+  {
+    "word": "hunch",
+    "code": ":thinking_face:"
+  },
+  {
+    "word": "ollie",
+    "code": ":skateboard:"
+  },
+  {
+    "word": "flame",
+    "code": ":fire_engine:"
+  },
+  {
+    "word": "ruban",
+    "code": ":ribbon:"
+  },
+  {
+    "word": "urban",
+    "code": ":cityscape:"
+  },
+  {
+    "word": "rhino",
+    "code": ":rhinoceros:"
+  },
+  {
+    "word": "armor",
+    "code": ":military_helmet:"
+  },
+  {
+    "word": "forty",
+    "code": ":birthday:"
+  },
+  {
+    "word": "dirge",
+    "code": ":coffin:"
+  },
+  {
+    "word": "image",
+    "code": ":camera:"
+  },
+  {
+    "word": "devil",
+    "code": ":smiling_imp:"
+  },
+  {
+    "word": "snide",
+    "code": ":smirk:"
+  },
+  {
+    "word": "sense",
+    "code": ":satellite_antenna:"
+  },
+  {
+    "word": "oaten",
+    "code": ":catan-grain:"
+  },
+  {
+    "word": "often",
+    "code": "::taco:"
+  },
+  {
+    "word": "smith",
+    "code": ":hammer:"
+  },
+  {
+    "word": "pined",
+    "code": ":evergreen_tree:"
+  },
+  {
+    "word": "piper",
+    "code": ":plunger:"
+  },
+  {
+    "word": "troop",
+    "code": ":camping:"
+  },
+  {
+    "word": "meany",
+    "code": ":face_with_symbols_on_mouth:"
+  },
+  {
+    "word": "heavy",
+    "code": ":bricks:"
+  },
+  {
+    "word": "bally",
+    "code": ":gb:"
+  },
+  {
+    "word": "built",
+    "code": ":house:"
+  },
+  {
+    "word": "build",
+    "code": ":hammer:"
+  },
+  {
+    "word": "match",
+    "code": ":tennis:"
+  },
+  {
+    "word": "palsy",
+    "code": ":wheelchair:"
+  },
+  {
+    "word": "psalm",
+    "code": ":book:"
+  },
+  {
+    "word": "stack",
+    "code": ":pancakes:"
+  },
+  {
+    "word": "staff",
+    "code": ":dusty_stick:"
+  },
+  {
+    "word": "hussy",
+    "code": ":women-with-bunny-ears-partying:"
+  },
+  {
+    "word": "sonar",
+    "code": ":loud_sound:"
+  },
+  {
+    "word": "pasty",
+    "code": ":standing_person::skin-tone-2:"
+  },
+  {
+    "word": "pasta",
+    "code": ":spaghetti:"
+  },
+  {
+    "word": "stiff",
+    "code": ":zombie:"
+  },
+  {
+    "word": "plume",
+    "code": ":peacock:"
+  },
+  {
+    "word": "plane",
+    "code": ":small_airplane: "
+  },
+  {
+    "word": "fader",
+    "code": ":level_slider:"
+  },
+  {
+    "word": "after",
+    "code": ":mantelpiece_clock:"
+  },
+  {
+    "word": "winch",
+    "code": ":pickup_truck:"
+  },
+  {
+    "word": "which",
+    "code": ":left_right_arrow:"
+  },
+  {
+    "word": "loupe",
+    "code": ":face_with_monocle:"
+  },
+  {
+    "word": "reply",
+    "code": ":love_letter:"
+  },
+  {
+    "word": "repel",
+    "code": ":dusty_stick:"
+  },
+  {
+    "word": "cleve",
+    "code": ":crossed_swords:"
+  },
+  {
+    "word": "cleft",
+    "code": ":knife:"
+  },
+  {
+    "word": "alone",
+    "code": ":desert_island:"
+  },
+  {
+    "word": "tuple",
+    "code": ":1234:"
+  },
+  {
+    "word": "expel",
+    "code": ":desert_island:"
+  },
+  {
+    "word": "lemur",
+    "code": ":monkey:"
+  },
+  {
+    "word": "ledge",
+    "code": ":man_climbing:"
+  },
+  {
+    "word": "leggy",
+    "code": ":mechanical_leg:"
+  },
+  {
+    "word": "aloof",
+    "code": ":smirk_cat:"
+  },
+  {
+    "word": "leant",
+    "code": ":moneybag:"
+  },
+  {
+    "word": "welch",
+    "code": ":grapes:"
+  },
+  {
+    "word": "relic",
+    "code": ":dungleon-relic:"
+  },
+  {
+    "word": "swill",
+    "code": ":sake:"
+  },
+  {
+    "word": "still",
+    "code": ":night_with_stars:"
+  },
+  {
+    "word": "tweed",
+    "code": ":coat:"
+  },
+  {
+    "word": "tweak",
+    "code": ":wrench:"
+  },
   {
     "word": "thing",
     "code": ":raised_hand_with_fingers_splayed:"
