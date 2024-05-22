@@ -1,58 +1,220 @@
 [
-  {"word":"exalt","code":":pray:"},
-  {"word":"month","code":":calendar:"},
-{"word":"rando","code":":man_with_beard:"},
-{"word":"dingo","code":":baby:"},
-  {"word":"react","code":":dash:"},
-{"word":"nicer","code":":smile:"},
-  {"word":"bardy","code":":guitar:"},
-  {"word":"runty","code":":pinching_hand:"},
-{"word":"tutor","code":":teacher:"},
-  {"word":"pinch","code":":pinching_hand:"},
-  {"word":"rafts","code":":rowboat:"},
-{"word":"incas","code":":flag-pe: "},
-{"word":"amoks","code":":zany_face:"},
-{"word":"amass","code":":ringed_planet:"},
-  {"word":"rafty","code":":droplet:"},
-{"word":"cumin","code":":taco:"},
-  {"word":"mower","code":":tractor:"},
-{"word":"other","code":":upside_down_face:"},
-{"word":"outer","code":":alien:"},
-  {"word":"malty","code":":beer:"},
-{"word":"atoll","code":":desert_island:"},
-{"word":"vital","code":":heartbeat:"},
-{"word":"tidal","code":":ocean:"},
-  {"word":"vegan","code":":carrot:"},
-{"word":"media","code":":floppy_disk:"},
-  {"word":"recon","code":":ninja:"},
-{"word":"jerky","code":":telephone:"},
-  {"word":"pairs","code":":couple:"},
-{"word":"piths","code":":tangerine:"},
-{"word":"pinks","code":":racing_car:"},
-{"word":"pimps","code":":man_dancing:"},
-{"word":"pious","code":":church:"},
-  {"word":"misty","code":":fog:"},
-{"word":"musty","code":":shoe:"},
-  {"word":"shave","code":":razor:"},
-  {"word":"decal","code":":bubbles:"},
-  {"word":"whole","code":":pie:"},
-{"word":"laude","code":":student:"},
-{"word":"value","code":":chart_with_upwards_trend:"},
-  {"word":"ebony","code":":musical_keyboard:"},
-  {"word":"slime","code":":slimehappy:"},
-{"word":"slide","code":":playground_slide:"},
-{"word":"slice","code":":tomato:"},
-  {"word":"unary","code":":one:"},
-{"word":"ovary","code":":woman:"},
-{"word":"diary","code":":book:"},
-  {"word":"polar","code":":polar_bear:"},
-{"word":"prowl","code":":tiger2:"},
-  {"word":"front","code":":house:"},
-{"word":"graft","code":":bone:"},
-  {"word":"prune","code":":scissors:"},
-  {"word":"chimp","code":":monkey:"},
-{"word":"tapir","code":":elephant:"},
-{"word":"vapid","code":":yawning_face:"},
+  {
+    "word": "exalt",
+    "code": ":pray:"
+  },
+  {
+    "word": "month",
+    "code": ":calendar:"
+  },
+  {
+    "word": "rando",
+    "code": ":man_with_beard:"
+  },
+  {
+    "word": "dingo",
+    "code": ":baby:"
+  },
+  {
+    "word": "react",
+    "code": ":dash:"
+  },
+  {
+    "word": "nicer",
+    "code": ":smile:"
+  },
+  {
+    "word": "bardy",
+    "code": ":guitar:"
+  },
+  {
+    "word": "runty",
+    "code": ":pinching_hand:"
+  },
+  {
+    "word": "tutor",
+    "code": ":teacher:"
+  },
+  {
+    "word": "pinch",
+    "code": ":pinching_hand:"
+  },
+  {
+    "word": "rafts",
+    "code": ":rowboat:"
+  },
+  {
+    "word": "incas",
+    "code": ":flag-pe: "
+  },
+  {
+    "word": "amoks",
+    "code": ":zany_face:"
+  },
+  {
+    "word": "amass",
+    "code": ":ringed_planet:"
+  },
+  {
+    "word": "rafty",
+    "code": ":droplet:"
+  },
+  {
+    "word": "cumin",
+    "code": ":taco:"
+  },
+  {
+    "word": "mower",
+    "code": ":tractor:"
+  },
+  {
+    "word": "other",
+    "code": ":upside_down_face:"
+  },
+  {
+    "word": "outer",
+    "code": ":alien:"
+  },
+  {
+    "word": "malty",
+    "code": ":beer:"
+  },
+  {
+    "word": "atoll",
+    "code": ":desert_island:"
+  },
+  {
+    "word": "vital",
+    "code": ":heartbeat:"
+  },
+  {
+    "word": "tidal",
+    "code": ":ocean:"
+  },
+  {
+    "word": "vegan",
+    "code": ":carrot:"
+  },
+  {
+    "word": "media",
+    "code": ":floppy_disk:"
+  },
+  {
+    "word": "recon",
+    "code": ":ninja:"
+  },
+  {
+    "word": "jerky",
+    "code": ":telephone:"
+  },
+  {
+    "word": "pairs",
+    "code": ":couple:"
+  },
+  {
+    "word": "piths",
+    "code": ":tangerine:"
+  },
+  {
+    "word": "pinks",
+    "code": ":racing_car:"
+  },
+  {
+    "word": "pimps",
+    "code": ":man_dancing:"
+  },
+  {
+    "word": "pious",
+    "code": ":church:"
+  },
+  {
+    "word": "misty",
+    "code": ":fog:"
+  },
+  {
+    "word": "musty",
+    "code": ":shoe:"
+  },
+  {
+    "word": "shave",
+    "code": ":razor:"
+  },
+  {
+    "word": "decal",
+    "code": ":bubbles:"
+  },
+  {
+    "word": "whole",
+    "code": ":pie:"
+  },
+  {
+    "word": "laude",
+    "code": ":student:"
+  },
+  {
+    "word": "value",
+    "code": ":chart_with_upwards_trend:"
+  },
+  {
+    "word": "ebony",
+    "code": ":musical_keyboard:"
+  },
+  {
+    "word": "slime",
+    "code": ":slimehappy:"
+  },
+  {
+    "word": "slide",
+    "code": ":playground_slide:"
+  },
+  {
+    "word": "slice",
+    "code": ":tomato:"
+  },
+  {
+    "word": "unary",
+    "code": ":one:"
+  },
+  {
+    "word": "ovary",
+    "code": ":woman:"
+  },
+  {
+    "word": "diary",
+    "code": ":book:"
+  },
+  {
+    "word": "polar",
+    "code": ":polar_bear:"
+  },
+  {
+    "word": "prowl",
+    "code": ":tiger2:"
+  },
+  {
+    "word": "front",
+    "code": ":house:"
+  },
+  {
+    "word": "graft",
+    "code": ":bone:"
+  },
+  {
+    "word": "prune",
+    "code": ":scissors:"
+  },
+  {
+    "word": "chimp",
+    "code": ":monkey:"
+  },
+  {
+    "word": "tapir",
+    "code": ":elephant:"
+  },
+  {
+    "word": "vapid",
+    "code": ":yawning_face:"
+  },
   {
     "word": "overt",
     "code": ":zany_face:"

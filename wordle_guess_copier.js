@@ -28,6 +28,10 @@ const CROSSED_SWORDS = '\u2694\uFE0F';
 const JAPANESE_OGRE = '\u{1F479}';
 const COIN = '\u{1FA99}';
 
+// Silence tampermonkey warnings
+let $ = window.jQuery;
+let _ = window._;
+
 /**
  * Static set of emojis to use in case webservice does not return usable data
  */
@@ -150,9 +154,13 @@ function extractWordleRow_2(letterElements) {
     return result;
 }
 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function getWordleGameNumber() {
     try {
-        return JSON.parse(window.localStorage.getItem('nyt-wordle-moogle/ANON')).game.dayOffset;
+        return numberWithCommas(JSON.parse(window.localStorage.getItem('wordle-legacy-stats-ANON')).lastWonDayOffset);
     } catch {
         return '';
     }
