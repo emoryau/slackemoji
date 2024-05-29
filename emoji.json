@@ -1,15 +1,48 @@
 [
-  {"word":"papal","code":":church:"},
-  {"word":"trams","code":":tram:"},
-{"word":"moods","code":":performing_arts:"},
-  {"word":"styed","code":":pig:"},
-{"word":"saver","code":":money_with_wings:"},
-{"word":"sizer","code":":sewing_needle:"},
-  {"word":"bevel","code":":small_red_triangle:"},
-  {"word":"titan","code":":full_moon:"},
-  {"word":"elder","code":":older_man:"},
-{"word":"aloed","code":":lotion_bottle:"},
-  {"word":"swish","code":":wastebasket:"},
+  {
+    "word": "papal",
+    "code": ":church:"
+  },
+  {
+    "word": "trams",
+    "code": ":tram:"
+  },
+  {
+    "word": "moods",
+    "code": ":performing_arts:"
+  },
+  {
+    "word": "styed",
+    "code": ":pig:"
+  },
+  {
+    "word": "saver",
+    "code": ":money_with_wings:"
+  },
+  {
+    "word": "sizer",
+    "code": ":sewing_needle:"
+  },
+  {
+    "word": "bevel",
+    "code": ":small_red_triangle:"
+  },
+  {
+    "word": "titan",
+    "code": ":full_moon:"
+  },
+  {
+    "word": "elder",
+    "code": ":older_man:"
+  },
+  {
+    "word": "aloed",
+    "code": ":lotion_bottle:"
+  },
+  {
+    "word": "swish",
+    "code": ":wastebasket:"
+  },
   {
     "word": "exalt",
     "code": ":pray:"
