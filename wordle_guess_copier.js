@@ -709,7 +709,16 @@ const GAME_DESCRIPTORS = {
     'wordle.2': {
         game: 'Wordle',
         extractGuessFn: extractWordle2Guesses,
-        getButtonContainerFn: () => $('[class^="AppHeader-module_appHeader"]')[0],
+        getButtonContainerFn: () => {
+            let container = $('[class^="AppHeader-module_appHeader"]')[0];
+
+            if (container === undefined) {
+                // button container not found, try another way
+                container = $('[data-testid^="toolbar"]')[0];
+            }
+
+            return container;
+        },
         buttonStyle: wordleButtonStyle
     },
     'dordle.1': {
