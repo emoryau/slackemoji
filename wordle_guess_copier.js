@@ -160,7 +160,7 @@ function numberWithCommas(x) {
 
 function getWordleGameNumber() {
     try {
-        return numberWithCommas(JSON.parse(window.localStorage.getItem('wordle-legacy-stats-ANON')).lastWonDayOffset);
+        return numberWithCommas(JSON.parse(window.localStorage.getItem('wordle-legacy-stats-155626593')).lastWonDayOffset);
     } catch {
         return '';
     }
@@ -225,9 +225,11 @@ function detectWordleVersion() {
 
             const gameSettings = GAME_DESCRIPTORS['wordle.2'];
 
-            console.debug('User Script detected ', gameSettings.game);
+            console.log('(observer) User Script detected ', gameSettings.game);
 
-            addButtonsToDocument(gameSettings);
+            setTimeout(() => {
+                addButtonsToDocument(gameSettings);
+            }, 5000);
 
             // Done with observing, now that game has been detected and set up
             observer.disconnect();
@@ -681,14 +683,16 @@ function downloadEmoji(success, failure) {
 }
 
 $(function() {
+    console.log('$function()');
+
     const gameSettings = GAME_DESCRIPTORS[detectGame()];
 
     if (gameSettings === undefined) {
-        console.debug('User Script did not detect game (yet)');
+        console.log('User Script did not detect game (yet)');
         return;
     }
 
-    console.debug('User Script detected ', gameSettings.game);
+    console.log('User Script detected ', gameSettings.game);
 
     addButtonsToDocument(gameSettings);
 });
