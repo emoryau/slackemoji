@@ -1,102 +1,396 @@
 [
-  {"word":"drill","code":":toolbox:"},
-{"word":"frill","code":":dress:"},
-{"word":"grill","code":":camping:"},
-{"word":"krill","code":":whale:"},
-  {"word":"curse","code":":vampire:"},
-  {"word":"booty","code":":peach:"},
-  {"word":"frise","code":":dog2:"},
-{"word":"verse","code":":singer:"},
-  {"word":"sheen","code":":sweat_drops:"},
-{"word":"sheet","code":":bed:"},
-  {"word":"blade","code":":knife:"},
-  {"word":"angle","code":":triangular_ruler:"},
-  {"word":"lasso","code":":face_with_cowboy_hat:"},
-  {"word":"spank","code":":hand:"},
-{"word":"sharp","code":":syringe:"},
-{"word":"stamp","code":":love_letter:"},
-  {"word":"piece","code":":jigsaw:"},
-  {"word":"crazy","code":":zany_face:"},
-{"word":"frack","code":":fuelpump:"},
-  {"word":"greek","code":":flag-gr:"},
-{"word":"greed","code":":moneybag:"},
-  {"word":"filed","code":":file_cabinet:"},
-{"word":"motel","code":":hotel:"},
-{"word":"navel","code":":large_orange_circle:"},
-  {"word":"hoppy","code":":rabbit2:"},
-  {"word":"alert","code":":rotating_light:"},
-  {"word":"smash","code":":hammer:"},
-{"word":"storm","code":":thunder_cloud_and_rain:"},
-{"word":"scrim","code":":performing_arts:"},
-  {"word":"cheer","code":":mega:"},
-  {"word":"devot","code":":shrug:"},
-{"word":"deity","code":":church:"},
-  {"word":"crank","code":":wheel:"},
-{"word":"fudgy","code":":chocolate_bar:"},
-{"word":"fuzzy","code":":tiger:"},
-  {"word":"lodge","code":":camping:"},
-  {"word":"tryer","code":":student:"},
-{"word":"cryer","code":":sob:"},
-{"word":"dryer","code":":black_circle_for_record:"},
-  {"word":"gland","code":":brain:"},
-  {"word":"mince","code":":cut_of_meat:"},
-  {"word":"clean","code":":dusty_stick:"},
-  {"word":"lanky","code":":bone:"},
-{"word":"madly","code":":zany_face:"},
-  {"word":"indie","code":":singer:"},
-  {"word":"suave","code":":person_in_tuxedo:"},
-  {"word":"ditty","code":":notes:"},
-  {"word":"bubba","code":":shrimp:"},
-{"word":"rumba","code":":dancer:"},
-  {"word":"vapor","code":":cloud:"},
-{"word":"rapid","code":":racing_car:"},
-  {"word":"swore","code":":right_anger_bubble:"},
-  {"word":"goody","code":":candy:"},
-  {"word":"steep","code":":tea:"},
-  {"word":"swath","code":":fire:"},
-  {"word":"pupil","code":":student:"},
-  {"word":"panel","code":":speech_balloon:"},
-{"word":"pedal","code":":bike:"},
-  {"word":"eerie","code":":ghost:"},
-{"word":"revue","code":":dancers:"},
-  {"word":"trade","code":":arrows_counterclockwise: "},
-{"word":"rivet","code":":ship:"},
-  {"word":"false","code":":no_good:"},
-  {"word":"feign","code":":performing_arts:"},
-{"word":"femur","code":":leg:"},
-{"word":"fever","code":":face_with_thermometer:"},
-  {"word":"spark","code":":zap:"},
-{"word":"crisp","code":":rice_cracker:"},
-  {"word":"crepe","code":":pancakes:"},
-  {"word":"ripen","code":":tomato:"},
-{"word":"hyper","code":":ahhhhhhhhh:"},
-{"word":"upper","code":":stadium:"},
-  {"word":"ready","code":":white_check_mark:"},
-  {"word":"icing","code":":ice_hockey_stick_and_puck:"},
-  {"word":"rated","code":":movie_camera:"},
-{"word":"ricey","code":":rice:"},
-{"word":"roger","code":":pirate_flag:"},
-{"word":"rover","code":":robot_face:"},
-{"word":"rower","code":":rowboat:"},
-  {"word":"peasy","code":":cake:"},
-{"word":"prose","code":":book:"},
-  {"word":"claim","code":":judge:"},
-{"word":"flint","code":":bow_and_arrow:"},
-  {"word":"knack","code":":rubber-duck:"},
-  {"word":"fancy","code":":pinkies-up:"},
-  {"word":"fling","code":":monkey:"},
-  {"word":"drawl","code":":flag-texas:"},
-{"word":"crawl","code":":baby:"},
-  {"word":"rolls","code":":roll_of_paper:"},
-{"word":"salts","code":":salt:"},
-{"word":"atlas","code":":weight_lifter:"},
-  {"word":"spork","code":":spoon:"},
-{"word":"spray","code":":champagne:"},
-{"word":"sprig","code":":herb:"},
-  {"word":"cubed","code":":ice_cube:"},
-{"word":"cyber","code":":technologist:"},
-  {"word":"relax","code":":massage:"},
-  {"word":"chose","code":":shrug:"},
+  {
+    "word": "drill",
+    "code": ":toolbox:"
+  },
+  {
+    "word": "frill",
+    "code": ":dress:"
+  },
+  {
+    "word": "grill",
+    "code": ":camping:"
+  },
+  {
+    "word": "krill",
+    "code": ":whale:"
+  },
+  {
+    "word": "curse",
+    "code": ":vampire:"
+  },
+  {
+    "word": "booty",
+    "code": ":peach:"
+  },
+  {
+    "word": "frise",
+    "code": ":dog2:"
+  },
+  {
+    "word": "verse",
+    "code": ":singer:"
+  },
+  {
+    "word": "sheen",
+    "code": ":sweat_drops:"
+  },
+  {
+    "word": "sheet",
+    "code": ":bed:"
+  },
+  {
+    "word": "blade",
+    "code": ":knife:"
+  },
+  {
+    "word": "angle",
+    "code": ":triangular_ruler:"
+  },
+  {
+    "word": "lasso",
+    "code": ":face_with_cowboy_hat:"
+  },
+  {
+    "word": "spank",
+    "code": ":hand:"
+  },
+  {
+    "word": "sharp",
+    "code": ":syringe:"
+  },
+  {
+    "word": "stamp",
+    "code": ":love_letter:"
+  },
+  {
+    "word": "piece",
+    "code": ":jigsaw:"
+  },
+  {
+    "word": "crazy",
+    "code": ":zany_face:"
+  },
+  {
+    "word": "frack",
+    "code": ":fuelpump:"
+  },
+  {
+    "word": "greek",
+    "code": ":flag-gr:"
+  },
+  {
+    "word": "greed",
+    "code": ":moneybag:"
+  },
+  {
+    "word": "filed",
+    "code": ":file_cabinet:"
+  },
+  {
+    "word": "motel",
+    "code": ":hotel:"
+  },
+  {
+    "word": "navel",
+    "code": ":large_orange_circle:"
+  },
+  {
+    "word": "hoppy",
+    "code": ":rabbit2:"
+  },
+  {
+    "word": "alert",
+    "code": ":rotating_light:"
+  },
+  {
+    "word": "smash",
+    "code": ":hammer:"
+  },
+  {
+    "word": "storm",
+    "code": ":thunder_cloud_and_rain:"
+  },
+  {
+    "word": "scrim",
+    "code": ":performing_arts:"
+  },
+  {
+    "word": "cheer",
+    "code": ":mega:"
+  },
+  {
+    "word": "devot",
+    "code": ":shrug:"
+  },
+  {
+    "word": "deity",
+    "code": ":church:"
+  },
+  {
+    "word": "crank",
+    "code": ":wheel:"
+  },
+  {
+    "word": "fudgy",
+    "code": ":chocolate_bar:"
+  },
+  {
+    "word": "fuzzy",
+    "code": ":tiger:"
+  },
+  {
+    "word": "lodge",
+    "code": ":camping:"
+  },
+  {
+    "word": "tryer",
+    "code": ":student:"
+  },
+  {
+    "word": "cryer",
+    "code": ":sob:"
+  },
+  {
+    "word": "dryer",
+    "code": ":black_circle_for_record:"
+  },
+  {
+    "word": "gland",
+    "code": ":brain:"
+  },
+  {
+    "word": "mince",
+    "code": ":cut_of_meat:"
+  },
+  {
+    "word": "clean",
+    "code": ":dusty_stick:"
+  },
+  {
+    "word": "lanky",
+    "code": ":bone:"
+  },
+  {
+    "word": "madly",
+    "code": ":zany_face:"
+  },
+  {
+    "word": "indie",
+    "code": ":singer:"
+  },
+  {
+    "word": "suave",
+    "code": ":person_in_tuxedo:"
+  },
+  {
+    "word": "ditty",
+    "code": ":notes:"
+  },
+  {
+    "word": "bubba",
+    "code": ":shrimp:"
+  },
+  {
+    "word": "rumba",
+    "code": ":dancer:"
+  },
+  {
+    "word": "vapor",
+    "code": ":cloud:"
+  },
+  {
+    "word": "rapid",
+    "code": ":racing_car:"
+  },
+  {
+    "word": "swore",
+    "code": ":right_anger_bubble:"
+  },
+  {
+    "word": "goody",
+    "code": ":candy:"
+  },
+  {
+    "word": "steep",
+    "code": ":tea:"
+  },
+  {
+    "word": "swath",
+    "code": ":fire:"
+  },
+  {
+    "word": "pupil",
+    "code": ":student:"
+  },
+  {
+    "word": "panel",
+    "code": ":speech_balloon:"
+  },
+  {
+    "word": "pedal",
+    "code": ":bike:"
+  },
+  {
+    "word": "eerie",
+    "code": ":ghost:"
+  },
+  {
+    "word": "revue",
+    "code": ":dancers:"
+  },
+  {
+    "word": "trade",
+    "code": ":arrows_counterclockwise: "
+  },
+  {
+    "word": "rivet",
+    "code": ":ship:"
+  },
+  {
+    "word": "false",
+    "code": ":no_good:"
+  },
+  {
+    "word": "feign",
+    "code": ":performing_arts:"
+  },
+  {
+    "word": "femur",
+    "code": ":leg:"
+  },
+  {
+    "word": "fever",
+    "code": ":face_with_thermometer:"
+  },
+  {
+    "word": "spark",
+    "code": ":zap:"
+  },
+  {
+    "word": "crisp",
+    "code": ":rice_cracker:"
+  },
+  {
+    "word": "crepe",
+    "code": ":pancakes:"
+  },
+  {
+    "word": "ripen",
+    "code": ":tomato:"
+  },
+  {
+    "word": "hyper",
+    "code": ":ahhhhhhhhh:"
+  },
+  {
+    "word": "upper",
+    "code": ":stadium:"
+  },
+  {
+    "word": "ready",
+    "code": ":white_check_mark:"
+  },
+  {
+    "word": "icing",
+    "code": ":ice_hockey_stick_and_puck:"
+  },
+  {
+    "word": "rated",
+    "code": ":movie_camera:"
+  },
+  {
+    "word": "ricey",
+    "code": ":rice:"
+  },
+  {
+    "word": "roger",
+    "code": ":pirate_flag:"
+  },
+  {
+    "word": "rover",
+    "code": ":robot_face:"
+  },
+  {
+    "word": "rower",
+    "code": ":rowboat:"
+  },
+  {
+    "word": "peasy",
+    "code": ":cake:"
+  },
+  {
+    "word": "prose",
+    "code": ":book:"
+  },
+  {
+    "word": "claim",
+    "code": ":judge:"
+  },
+  {
+    "word": "flint",
+    "code": ":bow_and_arrow:"
+  },
+  {
+    "word": "knack",
+    "code": ":rubber-duck:"
+  },
+  {
+    "word": "fancy",
+    "code": ":pinkies-up:"
+  },
+  {
+    "word": "fling",
+    "code": ":monkey:"
+  },
+  {
+    "word": "drawl",
+    "code": ":flag-texas:"
+  },
+  {
+    "word": "crawl",
+    "code": ":baby:"
+  },
+  {
+    "word": "rolls",
+    "code": ":roll_of_paper:"
+  },
+  {
+    "word": "salts",
+    "code": ":salt:"
+  },
+  {
+    "word": "atlas",
+    "code": ":weight_lifter:"
+  },
+  {
+    "word": "spork",
+    "code": ":spoon:"
+  },
+  {
+    "word": "spray",
+    "code": ":champagne:"
+  },
+  {
+    "word": "sprig",
+    "code": ":herb:"
+  },
+  {
+    "word": "cubed",
+    "code": ":ice_cube:"
+  },
+  {
+    "word": "cyber",
+    "code": ":technologist:"
+  },
+  {
+    "word": "relax",
+    "code": ":massage:"
+  },
+  {
+    "word": "chose",
+    "code": ":shrug:"
+  },
   {
     "word": "gusty",
     "code": ":wind_blowing_face:"
