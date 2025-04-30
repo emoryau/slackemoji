@@ -1,4 +1,7 @@
 [
+  {"word":"ruler","code":":straight_ruler:"},
+{"word":"tiler","code":":construction_worker:"},
+{"word":"idler","code":":wheel:"},
   {"word":"bliss","code":":star-struck:"},
   {"word":"dummy","code":":clown_face:"},
   {"word":"known","code":":bulb:"},
